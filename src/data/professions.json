@@ -1,0 +1,979 @@
+[
+  {
+    "slug": "real-estate-agents",
+    "title": "Real Estate Agents",
+    "category": "Sales & Services",
+    "tier": 1,
+    "metaTitle": "AI Workflows for Real Estate Agents | OpenClaw",
+    "metaDescription": "Discover AI-powered workflows that help real estate agents close deals faster, automate listings, and nurture leads. Get your guide today and sell smarter.",
+    "heroHeadline": "AI Workflows Built for Real Estate Agents",
+    "heroSubheadline": "Automate property listings, streamline client follow-ups, and close deals faster with AI tools purpose-built for modern real estate professionals.",
+    "overview": "Real estate agents juggle dozens of active listings, hundreds of leads, and constant client communication every single week. AI workflows can transform how you operate by automating property descriptions, generating comparative market analyses, scheduling showings, and personalizing outreach at scale. Instead of spending hours writing listing copy or manually following up with cold leads, you can deploy intelligent systems that handle repetitive tasks while you focus on building relationships and closing deals. Our guide covers the exact prompts, tool configurations, and step-by-step workflows that top-producing agents are already using to outperform their competition in today's market.",
+    "benefits": [
+      "Generate compelling MLS listing descriptions in seconds instead of hours",
+      "Automate lead scoring and follow-up sequences to never miss a hot prospect",
+      "Create personalized property recommendation emails for every buyer in your pipeline",
+      "Produce professional social media content and virtual tour scripts on demand",
+      "Analyze comparable sales data and generate CMA reports with AI-assisted insights"
+    ],
+    "freeTips": [
+      {
+        "title": "Use AI to Write Listing Descriptions That Sell",
+        "description": "Feed your property details, neighborhood highlights, and target buyer persona into ChatGPT or Claude with a structured prompt. Include square footage, unique features, recent upgrades, and nearby amenities. Ask the AI to write three variations targeting different buyer types: first-time buyers, investors, and families. This approach produces descriptions that speak directly to motivated buyers and dramatically reduces your writing time."
+      },
+      {
+        "title": "Automate Your Lead Follow-Up Cadence",
+        "description": "Set up an AI-driven workflow that monitors new leads from Zillow, Realtor.com, or your CRM, then automatically drafts personalized follow-up emails based on the property they viewed and their search criteria. Use tools like Zapier connected to ChatGPT to generate unique messages for each lead rather than sending generic templates, significantly increasing your response rates."
+      },
+      {
+        "title": "Generate Neighborhood Guides for Every Listing",
+        "description": "Use AI to research and compile comprehensive neighborhood guides that you can share with prospective buyers. Input the listing address and ask the AI to pull together information about schools, restaurants, commute times, parks, and recent development projects. These guides position you as a local expert and give buyers a reason to work with you over agents who only share basic listing data."
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Automated Listing Content Generation",
+        "description": "Create MLS descriptions, social media posts, email campaigns, and virtual tour scripts for every new listing in minutes. AI generates multiple variations optimized for different platforms and buyer demographics.",
+        "tools": ["ChatGPT", "Claude", "Canva AI", "Jasper"]
+      },
+      {
+        "title": "Intelligent Lead Nurturing Pipeline",
+        "description": "Score incoming leads based on behavior signals, automatically send personalized property recommendations, and alert you when a prospect is ready to schedule a showing. Keeps your pipeline warm without manual effort.",
+        "tools": ["Zapier", "ChatGPT", "HubSpot", "Follow Up Boss"]
+      },
+      {
+        "title": "Comparative Market Analysis Assistance",
+        "description": "Feed recent sales data into AI tools to generate detailed CMA reports with pricing recommendations, market trend summaries, and visual charts that impress sellers during listing presentations.",
+        "tools": ["ChatGPT", "Claude", "Google Sheets AI", "Gamma"]
+      },
+      {
+        "title": "Client Communication Automation",
+        "description": "Draft transaction updates, inspection follow-ups, closing checklists, and post-sale check-in messages automatically. AI adapts tone and content based on where each client is in the buying or selling process.",
+        "tools": ["ChatGPT", "Zapier", "Gmail AI", "Claude"]
+      }
+    ],
+    "tools": ["ChatGPT", "Claude", "Zapier", "Canva AI", "HubSpot", "Jasper", "Gamma", "Google Sheets AI"],
+    "stats": {
+      "adoptionRate": "34%",
+      "timeSaved": "12 hours/week",
+      "roiIncrease": "28%",
+      "source": "NAR Technology Survey 2025"
+    },
+    "guidePrice": 3900,
+    "stripePriceId": "price_real_estate_agents",
+    "relatedProfessions": ["sales-teams", "marketing-professionals", "project-managers"],
+    "faq": [
+      {
+        "question": "What format is the guide in?",
+        "answer": "The guide is delivered as a comprehensive PDF document with clickable links, copy-paste prompt templates, and step-by-step workflow diagrams. You also get access to a companion resource folder with editable templates you can import directly into your tools."
+      },
+      {
+        "question": "Do I need technical skills to implement these AI workflows?",
+        "answer": "Not at all. Every workflow is written in plain language with screenshot walkthroughs. If you can use a CRM and send emails, you can implement these AI workflows. Most agents have their first automation running within 30 minutes of opening the guide."
+      },
+      {
+        "question": "Will these workflows work with my existing CRM and tools?",
+        "answer": "Yes. The workflows are designed to integrate with popular real estate platforms including Follow Up Boss, KvCORE, Sierra Interactive, and BoomTown. We also cover general setups using Zapier that work with virtually any CRM."
+      },
+      {
+        "question": "How quickly will I see results from using AI in my real estate business?",
+        "answer": "Most agents report saving 10-15 hours per week within the first two weeks of implementation. Lead response times typically drop by 80%, and listing content production speed increases dramatically from day one."
+      }
+    ],
+    "guideTableOfContents": [
+      "Chapter 1: The AI-Powered Real Estate Agent — Setting Up Your Foundation",
+      "Chapter 2: Crafting Irresistible Listing Descriptions with AI",
+      "Chapter 3: Automated Lead Capture, Scoring, and Nurturing Workflows",
+      "Chapter 4: AI-Assisted Market Analysis and Pricing Strategy",
+      "Chapter 5: Social Media and Marketing Content on Autopilot",
+      "Chapter 6: Client Communication Workflows from First Contact to Closing",
+      "Chapter 7: Building Your AI Tech Stack — Tools, Costs, and Integration",
+      "Chapter 8: Scaling Your Business with Advanced AI Automation"
+    ],
+    "agencyAvailable": true,
+    "publishedAt": "2026-01-15T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "slug": "project-managers",
+    "title": "Project Managers",
+    "category": "Management & Operations",
+    "tier": 1,
+    "metaTitle": "AI Workflows for Project Managers | OpenClaw",
+    "metaDescription": "Streamline project planning, risk tracking, and team communication with AI workflows built for project managers. Download your actionable guide now and lead.",
+    "heroHeadline": "AI Workflows Built for Project Managers",
+    "heroSubheadline": "Automate status reporting, predict project risks before they escalate, and keep every stakeholder aligned with intelligent workflow automation.",
+    "overview": "Project managers are expected to deliver on time, under budget, and with full stakeholder alignment — all while managing scope creep, resource constraints, and shifting priorities. AI workflows can shoulder the burden of repetitive project administration so you can focus on strategic decision-making and team leadership. From auto-generating weekly status reports to flagging at-risk tasks before they derail your timeline, these workflows transform how you plan, execute, and communicate. Our guide provides ready-to-use templates for every phase of the project lifecycle, whether you run Agile sprints, waterfall timelines, or hybrid methodologies across your portfolio.",
+    "benefits": [
+      "Auto-generate weekly status reports and executive summaries from project data",
+      "Predict schedule risks and resource conflicts before they become blockers",
+      "Create meeting agendas, minutes, and action items from recorded conversations",
+      "Draft stakeholder communications tailored to technical and non-technical audiences",
+      "Build and update project documentation, SOPs, and runbooks in a fraction of the time"
+    ],
+    "freeTips": [
+      {
+        "title": "Auto-Generate Status Reports from Task Data",
+        "description": "Export your current sprint or project task data from Jira, Asana, or Monday.com as a CSV, then feed it into Claude or ChatGPT with a prompt that asks for an executive summary covering completed milestones, in-progress work, blockers, and upcoming deadlines. You can produce a polished status report in under two minutes that would normally take 30-45 minutes to compile manually."
+      },
+      {
+        "title": "Use AI to Identify Schedule Risks Early",
+        "description": "Paste your project timeline and task dependencies into an AI tool and ask it to analyze critical path items, identify tasks with the tightest buffers, and flag any resource over-allocations. The AI can spot patterns you might miss when looking at a complex Gantt chart and suggest specific mitigation strategies for each risk it identifies."
+      },
+      {
+        "title": "Transform Meeting Recordings into Action Items",
+        "description": "Use Otter.ai or Fireflies.ai to transcribe your project meetings, then feed the transcript into ChatGPT with a prompt to extract action items, decisions made, and open questions. Assign owners and due dates to each action item and have the AI format everything into a ready-to-send follow-up email for all attendees."
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Automated Status Reporting and Dashboards",
+        "description": "Pull live data from your project management tool and generate formatted status reports with risk indicators, milestone tracking, and burn-down summaries. Distribute automatically to stakeholders on a set schedule.",
+        "tools": ["ChatGPT", "Zapier", "Jira", "Google Sheets AI"]
+      },
+      {
+        "title": "Predictive Risk and Dependency Analysis",
+        "description": "Analyze project plans to identify critical path vulnerabilities, resource bottlenecks, and historical patterns that suggest potential delays. Receive proactive alerts with recommended mitigations before issues materialize.",
+        "tools": ["Claude", "ChatGPT", "Microsoft Copilot", "Smartsheet"]
+      },
+      {
+        "title": "Meeting Intelligence and Follow-Up Automation",
+        "description": "Transcribe meetings in real time, extract key decisions and action items, and auto-distribute formatted minutes with assigned tasks and deadlines. Reduces post-meeting administration by over 90%.",
+        "tools": ["Otter.ai", "Fireflies.ai", "ChatGPT", "Zapier"]
+      },
+      {
+        "title": "Project Documentation Generation",
+        "description": "Draft project charters, requirements documents, test plans, and retrospective reports from structured inputs. AI maintains consistency across your documentation portfolio and adapts to your organization's templates.",
+        "tools": ["Claude", "Notion AI", "ChatGPT", "Confluence"]
+      },
+      {
+        "title": "Resource Allocation Optimization",
+        "description": "Analyze team capacity, skill sets, and current workloads to recommend optimal task assignments across multiple concurrent projects. Helps prevent burnout while maximizing delivery velocity.",
+        "tools": ["ChatGPT", "Google Sheets AI", "Monday.com", "Claude"]
+      }
+    ],
+    "tools": ["ChatGPT", "Claude", "Zapier", "Jira", "Otter.ai", "Notion AI", "Microsoft Copilot", "Google Sheets AI"],
+    "stats": {
+      "adoptionRate": "41%",
+      "timeSaved": "14 hours/week",
+      "roiIncrease": "32%",
+      "source": "PMI Pulse of the Profession 2025"
+    },
+    "guidePrice": 3900,
+    "stripePriceId": "price_project_managers",
+    "relatedProfessions": ["product-managers", "general-contractors", "software-developers"],
+    "faq": [
+      {
+        "question": "What format is the guide in?",
+        "answer": "The guide is a detailed PDF with over 60 pages of workflows, prompt templates, and integration blueprints. It includes copy-paste prompts, configuration screenshots, and a companion template pack for Notion, Google Sheets, and popular PM tools."
+      },
+      {
+        "question": "Which project management methodologies do the workflows support?",
+        "answer": "The workflows cover Agile (Scrum and Kanban), Waterfall, and hybrid approaches. Each workflow includes variations for different methodologies so you can adapt them to your team's specific way of working."
+      },
+      {
+        "question": "Can I use these workflows if my organization restricts AI tool usage?",
+        "answer": "Yes. We include workflows for both cloud-based AI tools and locally-hosted alternatives. We also cover how to use AI effectively within common enterprise security and compliance constraints, including data anonymization techniques."
+      },
+      {
+        "question": "How do these workflows integrate with Jira, Asana, or Monday.com?",
+        "answer": "The guide provides specific integration recipes for each major PM platform using Zapier, Make, and native AI features. You will get step-by-step setup instructions with screenshots for connecting your existing tools to AI-powered automations."
+      }
+    ],
+    "guideTableOfContents": [
+      "Chapter 1: Foundations of AI-Augmented Project Management",
+      "Chapter 2: Automated Reporting — Status Updates, Dashboards, and Summaries",
+      "Chapter 3: Risk Detection and Proactive Mitigation Workflows",
+      "Chapter 4: Meeting Intelligence — From Transcript to Action Items",
+      "Chapter 5: Documentation Generation and Knowledge Management",
+      "Chapter 6: Resource Planning and Capacity Optimization with AI",
+      "Chapter 7: Stakeholder Communication Templates and Workflows"
+    ],
+    "agencyAvailable": true,
+    "publishedAt": "2026-01-15T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "slug": "general-contractors",
+    "title": "General Contractors",
+    "category": "Management & Operations",
+    "tier": 1,
+    "metaTitle": "AI Workflows for General Contractors | OpenClaw",
+    "metaDescription": "AI workflows that help general contractors estimate jobs, manage subs, and streamline permits. Get the contractor's guide to working smarter with AI today.",
+    "heroHeadline": "AI Workflows Built for General Contractors",
+    "heroSubheadline": "Produce accurate estimates faster, coordinate subcontractors seamlessly, and keep every job on schedule with AI-powered construction workflows.",
+    "overview": "General contractors manage some of the most complex operational challenges of any profession — coordinating dozens of subcontractors, tracking materials and costs across multiple active job sites, navigating permit processes, and keeping clients informed through every phase of construction. AI workflows bring order to this chaos by automating bid preparation, generating scope-of-work documents, tracking change orders, and producing client-facing progress reports. Whether you run residential renovations or commercial build-outs, these workflows reduce the administrative overhead that eats into your margins and keeps you tethered to your desk instead of on the job site where you belong.",
+    "benefits": [
+      "Generate detailed cost estimates and bid proposals from project specs in minutes",
+      "Automate change order documentation and client approval workflows",
+      "Create daily progress reports with photo logs and milestone tracking",
+      "Draft subcontractor scope-of-work agreements and RFP documents quickly",
+      "Streamline permit application narratives and compliance documentation"
+    ],
+    "freeTips": [
+      {
+        "title": "Speed Up Your Bid Estimates with AI",
+        "description": "Take your project specifications — square footage, materials, finishes, and site conditions — and input them into ChatGPT with a detailed prompt that asks for a line-item cost estimate broken down by trade. While AI cannot replace a thorough site visit, it can produce a solid first-draft estimate in minutes that you then refine with your local pricing knowledge, cutting your estimating time by 60% or more."
+      },
+      {
+        "title": "Generate Scope-of-Work Documents for Subs",
+        "description": "Instead of writing SOW documents from scratch for every subcontractor on every job, feed your project plans and specifications into an AI tool and ask it to produce a scope-of-work document for a specific trade — plumbing, electrical, framing, etc. Include your standard terms, payment schedules, and quality expectations as context. The AI will produce a professional document you can customize and send within minutes."
+      },
+      {
+        "title": "Create Client-Ready Progress Reports Automatically",
+        "description": "At the end of each day or week, input your job site notes, completed tasks, upcoming milestones, and any issues encountered into an AI tool. Ask it to format a professional progress report suitable for sending to the homeowner or project owner. Include budget tracking data and the AI will produce a polished update that keeps clients informed and builds trust."
+      }
+    ],
+    "useCases": [
+      {
+        "title": "AI-Assisted Estimating and Bid Preparation",
+        "description": "Transform project blueprints and specifications into detailed cost estimates with line-item breakdowns by trade, materials, and labor. Produce professional bid packages that win more contracts while reducing estimating time dramatically.",
+        "tools": ["ChatGPT", "Claude", "Google Sheets AI", "Excel Copilot"]
+      },
+      {
+        "title": "Subcontractor Management and Communication",
+        "description": "Generate RFPs, scope-of-work documents, and sub agreements from project specifications. Automate scheduling notifications, change order approvals, and payment milestone tracking across your entire subcontractor network.",
+        "tools": ["ChatGPT", "Zapier", "Buildertrend", "Claude"]
+      },
+      {
+        "title": "Client Reporting and Change Order Tracking",
+        "description": "Produce daily or weekly progress reports from field notes, automate change order documentation with cost impact summaries, and maintain a transparent communication trail that prevents disputes and builds client confidence.",
+        "tools": ["ChatGPT", "Google Sheets AI", "Zapier", "Procore"]
+      },
+      {
+        "title": "Permit and Compliance Documentation",
+        "description": "Draft permit application narratives, safety plans, and code compliance summaries from your project details. AI helps ensure you address all required sections and reduces the back-and-forth with permitting offices.",
+        "tools": ["Claude", "ChatGPT", "Adobe Acrobat AI", "Google Docs"]
+      }
+    ],
+    "tools": ["ChatGPT", "Claude", "Google Sheets AI", "Zapier", "Buildertrend", "Procore", "Excel Copilot", "Adobe Acrobat AI"],
+    "stats": {
+      "adoptionRate": "22%",
+      "timeSaved": "10 hours/week",
+      "roiIncrease": "24%",
+      "source": "Associated Builders and Contractors Tech Report 2025"
+    },
+    "guidePrice": 3900,
+    "stripePriceId": "price_general_contractors",
+    "relatedProfessions": ["project-managers", "real-estate-agents", "product-managers"],
+    "faq": [
+      {
+        "question": "What format is the guide in?",
+        "answer": "The guide is delivered as a practical PDF with prompt templates, workflow diagrams, and real-world examples from residential and commercial projects. It also includes spreadsheet templates for AI-assisted estimating that you can start using immediately."
+      },
+      {
+        "question": "I am not tech-savvy — can I still use these workflows?",
+        "answer": "Absolutely. The guide is written specifically for contractors, not tech professionals. Every workflow uses plain language, includes screenshots, and is designed to work on a phone or tablet from the job site. If you can send a text message, you can use these AI workflows."
+      },
+      {
+        "question": "Will AI-generated estimates be accurate enough for real bids?",
+        "answer": "AI estimates serve as a strong starting point that you refine with your local market knowledge, supplier pricing, and site-specific conditions. Contractors using these workflows report their first-draft estimates are typically within 10-15% of final numbers, saving significant time on the estimating process."
+      },
+      {
+        "question": "Do the workflows work for both residential and commercial projects?",
+        "answer": "Yes. The guide includes workflow variations for residential remodels, new home construction, and commercial build-outs. Each use case notes where the approach differs between project types so you can apply the right workflow to your specific work."
+      }
+    ],
+    "guideTableOfContents": [
+      "Chapter 1: Getting Started with AI on the Job Site",
+      "Chapter 2: AI-Powered Estimating and Bid Generation",
+      "Chapter 3: Subcontractor Coordination and SOW Automation",
+      "Chapter 4: Client Communication and Progress Reporting",
+      "Chapter 5: Change Order and Budget Tracking Workflows",
+      "Chapter 6: Permit Applications and Compliance Documentation",
+      "Chapter 7: Safety Planning and Inspection Preparation",
+      "Chapter 8: Building Your Contractor AI Toolkit"
+    ],
+    "agencyAvailable": true,
+    "publishedAt": "2026-01-15T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "slug": "marketing-professionals",
+    "title": "Marketing Professionals",
+    "category": "Marketing & Content",
+    "tier": 1,
+    "metaTitle": "AI Workflows for Marketing Professionals | OpenClaw",
+    "metaDescription": "Scale your marketing output with AI workflows for content creation, campaign strategy, and analytics. Get the playbook marketing teams trust — start today.",
+    "heroHeadline": "AI Workflows Built for Marketing Professionals",
+    "heroSubheadline": "Create more content, launch campaigns faster, and make data-driven decisions with AI workflows designed for modern marketing teams.",
+    "overview": "Marketing professionals face relentless pressure to produce more content across more channels while demonstrating measurable ROI on every campaign. AI workflows fundamentally change the equation by automating content creation, audience segmentation, campaign copywriting, and performance analysis. Instead of spending days on a single blog post or email sequence, you can produce high-quality first drafts in minutes, A/B test variations at scale, and extract actionable insights from campaign data without waiting for analyst bandwidth. Our guide covers workflows for content marketing, paid media, email, social, and SEO — giving you a comprehensive AI playbook that integrates with the tools your team already uses.",
+    "benefits": [
+      "Produce blog posts, email sequences, and ad copy at five times your current output",
+      "Generate audience personas and segmentation strategies from your existing customer data",
+      "Automate social media content calendars with platform-optimized posts and scheduling",
+      "Extract campaign performance insights and build executive-ready reports in minutes",
+      "Create SEO-optimized content briefs and keyword strategies without expensive tools"
+    ],
+    "freeTips": [
+      {
+        "title": "Build a Content Repurposing Engine",
+        "description": "Take one long-form piece of content — a blog post, webinar transcript, or whitepaper — and use AI to repurpose it into ten or more distinct content pieces. Feed it into ChatGPT and ask for a LinkedIn post, three tweet threads, an email newsletter summary, Instagram carousel copy, a YouTube video script outline, and key quote graphics. This single workflow can fill your content calendar for an entire week from one source asset."
+      },
+      {
+        "title": "Automate Email Subject Line A/B Testing",
+        "description": "Before sending any email campaign, paste your email body into an AI tool and ask it to generate twenty subject line variations across different angles: curiosity, urgency, benefit-driven, question-based, and personalized. Then ask it to rank the top five based on your target audience. This gives you strong A/B test candidates without brainstorming sessions, consistently improving your open rates over time."
+      },
+      {
+        "title": "Generate Data-Driven Campaign Briefs",
+        "description": "Export your recent campaign performance data from Google Analytics or your ad platform, paste it into Claude or ChatGPT, and ask for an analysis of what worked, what underperformed, and specific recommendations for your next campaign. Include your goals and budget constraints. The AI will produce a campaign brief grounded in your actual data rather than generic best practices."
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Scalable Content Production Pipeline",
+        "description": "Generate blog posts, landing pages, case studies, and thought leadership content from outlines and research notes. AI produces SEO-optimized first drafts that your team edits and publishes, multiplying content output without increasing headcount.",
+        "tools": ["ChatGPT", "Claude", "Jasper", "SurferSEO"]
+      },
+      {
+        "title": "Multi-Channel Campaign Copywriting",
+        "description": "Create coordinated copy for email sequences, paid ads, social posts, and landing pages from a single campaign brief. AI maintains consistent messaging while adapting tone and format for each channel's requirements.",
+        "tools": ["ChatGPT", "Jasper", "Copy.ai", "Claude"]
+      },
+      {
+        "title": "Performance Analytics and Reporting",
+        "description": "Analyze campaign data across channels, identify trends and anomalies, and produce stakeholder-ready reports with visualizations and strategic recommendations. Reduces reporting time from hours to minutes each week.",
+        "tools": ["ChatGPT", "Google Sheets AI", "Supermetrics", "Claude"]
+      },
+      {
+        "title": "SEO Strategy and Content Optimization",
+        "description": "Research keywords, analyze competitor content, generate optimized content briefs, and audit existing pages for SEO improvements. AI handles the research-heavy groundwork so your team can focus on creative strategy.",
+        "tools": ["Claude", "ChatGPT", "SurferSEO", "Ahrefs"]
+      },
+      {
+        "title": "Audience Segmentation and Persona Development",
+        "description": "Analyze customer data to build detailed buyer personas, map content to each stage of the funnel, and generate targeted messaging frameworks that resonate with specific audience segments.",
+        "tools": ["ChatGPT", "Claude", "HubSpot", "Google Sheets AI"]
+      }
+    ],
+    "tools": ["ChatGPT", "Claude", "Jasper", "SurferSEO", "Zapier", "HubSpot", "Canva AI", "Copy.ai"],
+    "stats": {
+      "adoptionRate": "58%",
+      "timeSaved": "16 hours/week",
+      "roiIncrease": "41%",
+      "source": "HubSpot State of Marketing Report 2025"
+    },
+    "guidePrice": 3900,
+    "stripePriceId": "price_marketing_professionals",
+    "relatedProfessions": ["sales-teams", "product-managers", "hr-recruitment"],
+    "faq": [
+      {
+        "question": "What format is the guide in?",
+        "answer": "The guide is a comprehensive PDF packed with 80+ prompt templates, workflow diagrams, and tool configuration walkthroughs. It includes a bonus content calendar template and campaign brief generator that you can start using on day one."
+      },
+      {
+        "question": "Will AI-generated content sound generic or robotic?",
+        "answer": "Not with the right approach. The guide teaches you how to create brand voice profiles, inject proprietary data and unique perspectives, and use AI as a drafting partner rather than a replacement for human creativity. The result is content that sounds like your brand, produced in a fraction of the time."
+      },
+      {
+        "question": "Does the guide cover B2B, B2C, or both?",
+        "answer": "Both. Every workflow includes variations for B2B and B2C contexts. Whether you are marketing enterprise SaaS or consumer products, the workflows adapt to your audience, sales cycle, and content strategy."
+      },
+      {
+        "question": "How do these workflows handle brand consistency across channels?",
+        "answer": "The guide includes a brand voice configuration workflow that creates a reusable AI prompt context containing your tone, style guidelines, key messaging, and brand-specific terminology. This context is prepended to every workflow, ensuring all output stays on-brand regardless of the channel or content type."
+      }
+    ],
+    "guideTableOfContents": [
+      "Chapter 1: Building Your AI Marketing Foundation and Brand Voice Profile",
+      "Chapter 2: Content Creation Workflows — Blog, Email, and Long-Form",
+      "Chapter 3: Paid Media and Ad Copy Automation",
+      "Chapter 4: Social Media Content Engine and Scheduling Workflows",
+      "Chapter 5: SEO Research, Optimization, and Content Briefs",
+      "Chapter 6: Campaign Analytics and Performance Reporting",
+      "Chapter 7: Audience Segmentation and Personalization at Scale",
+      "Chapter 8: The AI Marketing Stack — Tools, Integrations, and Budgeting"
+    ],
+    "agencyAvailable": true,
+    "publishedAt": "2026-01-15T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "slug": "financial-analysts",
+    "title": "Financial Analysts",
+    "category": "Finance & Accounting",
+    "tier": 1,
+    "metaTitle": "AI Workflows for Financial Analysts | OpenClaw",
+    "metaDescription": "Accelerate financial modeling, reporting, and data analysis with AI workflows built for analysts. Download the guide trusted by finance professionals.",
+    "heroHeadline": "AI Workflows Built for Financial Analysts",
+    "heroSubheadline": "Build models faster, extract insights from earnings data, and automate reporting workflows with AI tools designed for finance professionals.",
+    "overview": "Financial analysts spend the majority of their time gathering data, building spreadsheets, and formatting reports — time that could be spent on the high-value analytical thinking that actually drives investment decisions and business strategy. AI workflows automate the tedious parts of financial analysis: pulling data from earnings transcripts, populating model templates, running scenario analyses, generating variance explanations, and drafting investment memos. Whether you work in corporate FP&A, investment banking, equity research, or private equity, these workflows give you a systematic way to incorporate AI into your daily process while maintaining the accuracy and rigor that finance demands.",
+    "benefits": [
+      "Extract key metrics and sentiment from earnings calls and SEC filings automatically",
+      "Generate first-draft financial models and scenario analyses from raw data inputs",
+      "Automate variance analysis narratives for monthly and quarterly reporting cycles",
+      "Draft investment memos, management presentations, and board decks faster",
+      "Build automated data pipelines that pull, clean, and organize financial data"
+    ],
+    "freeTips": [
+      {
+        "title": "Automate Earnings Call Analysis",
+        "description": "Download earnings call transcripts from SEC filings or investor relations pages and feed them into Claude with a structured prompt. Ask the AI to extract revenue figures, guidance updates, key management quotes, sentiment shifts compared to prior quarters, and any risk factors mentioned. You can analyze a full transcript in under three minutes and produce a summary that would normally take 45 minutes to compile manually."
+      },
+      {
+        "title": "Generate Variance Explanations from Data",
+        "description": "Export your budget-vs-actual data from your ERP or reporting tool, paste it into ChatGPT, and ask it to identify the top five variances by dollar impact and generate plain-English explanations for each. Provide context about known business events like product launches or headcount changes, and the AI will weave those factors into a variance narrative suitable for management review."
+      },
+      {
+        "title": "Build Scenario Analysis Frameworks Rapidly",
+        "description": "Instead of manually building bear, base, and bull cases in your model, describe your business drivers and key assumptions to an AI tool and ask it to generate three scenario frameworks with specific assumption ranges for each variable. The AI will propose internally consistent scenarios that you can plug directly into your financial model, saving significant setup time."
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Earnings and SEC Filing Analysis",
+        "description": "Process 10-K filings, earnings transcripts, and investor presentations to extract financial metrics, management commentary, risk factors, and forward guidance. Generate structured summaries ready for your research database or investment committee.",
+        "tools": ["Claude", "ChatGPT", "SEC EDGAR", "Google Sheets AI"]
+      },
+      {
+        "title": "Financial Modeling Assistance",
+        "description": "Accelerate model building by generating formula structures, scenario assumptions, and sensitivity tables from your inputs. AI handles the mechanical construction while you focus on the analytical judgment that drives accurate forecasting.",
+        "tools": ["ChatGPT", "Excel Copilot", "Claude", "Google Sheets AI"]
+      },
+      {
+        "title": "Automated Reporting and Presentation Drafting",
+        "description": "Transform raw financial data into formatted reports, variance analyses, and board-ready presentations. AI generates charts, narratives, and executive summaries that maintain your firm's formatting standards.",
+        "tools": ["ChatGPT", "Gamma", "Excel Copilot", "Claude"]
+      },
+      {
+        "title": "Data Cleaning and Pipeline Automation",
+        "description": "Build workflows that pull data from multiple sources, standardize formats, reconcile discrepancies, and populate your models and dashboards automatically. Eliminates hours of manual data wrangling each reporting cycle.",
+        "tools": ["ChatGPT", "Zapier", "Google Sheets AI", "Python"]
+      }
+    ],
+    "tools": ["ChatGPT", "Claude", "Excel Copilot", "Google Sheets AI", "Zapier", "Gamma", "Python", "Bloomberg Terminal"],
+    "stats": {
+      "adoptionRate": "37%",
+      "timeSaved": "11 hours/week",
+      "roiIncrease": "30%",
+      "source": "Deloitte Global Finance AI Survey 2025"
+    },
+    "guidePrice": 3900,
+    "stripePriceId": "price_financial_analysts",
+    "relatedProfessions": ["project-managers", "product-managers", "software-developers"],
+    "faq": [
+      {
+        "question": "What format is the guide in?",
+        "answer": "The guide is a detailed PDF with prompt libraries organized by finance function (FP&A, equity research, investment banking, corporate finance). It includes downloadable Excel templates with AI-ready formulas and a quick-reference card for the most common financial analysis prompts."
+      },
+      {
+        "question": "Can I trust AI output for financial analysis and reporting?",
+        "answer": "AI serves as an accelerator, not a replacement for professional judgment. The guide teaches a verification-first workflow where every AI output goes through structured validation steps. You will learn how to use AI to produce first drafts faster while maintaining the accuracy standards your work requires."
+      },
+      {
+        "question": "Are these workflows compliant with financial industry regulations?",
+        "answer": "The guide addresses compliance considerations for major regulatory frameworks and includes best practices for data handling, audit trails, and disclosure. We cover how to use AI within regulated environments without exposing sensitive financial data to public AI models."
+      },
+      {
+        "question": "Which AI tools work best with Excel and financial modeling?",
+        "answer": "The guide covers Microsoft Copilot for Excel, ChatGPT with Advanced Data Analysis, Claude for document analysis, and Python-based workflows for advanced automation. You will learn which tool to use for each specific financial task and how to chain them together for complex analyses."
+      }
+    ],
+    "guideTableOfContents": [
+      "Chapter 1: AI Fundamentals for Finance Professionals",
+      "Chapter 2: Earnings Calls, SEC Filings, and Document Analysis Workflows",
+      "Chapter 3: Financial Modeling — AI-Assisted Building, Scenarios, and Sensitivity",
+      "Chapter 4: Variance Analysis and Management Reporting Automation",
+      "Chapter 5: Investment Memo and Presentation Drafting Workflows",
+      "Chapter 6: Data Pipelines — Extraction, Cleaning, and Reconciliation",
+      "Chapter 7: Compliance, Accuracy, and AI Governance in Finance"
+    ],
+    "agencyAvailable": true,
+    "publishedAt": "2026-01-15T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "slug": "healthcare-professionals",
+    "title": "Healthcare Professionals",
+    "category": "Healthcare & Education",
+    "tier": 1,
+    "metaTitle": "AI Workflows for Healthcare Professionals | OpenClaw",
+    "metaDescription": "Reduce admin burden and improve patient care with AI workflows for healthcare professionals. Get HIPAA-conscious workflow templates — download yours now.",
+    "heroHeadline": "AI Workflows Built for Healthcare Professionals",
+    "heroSubheadline": "Reclaim hours lost to documentation, streamline patient communication, and stay current with medical research using AI workflows designed for healthcare.",
+    "overview": "Healthcare professionals spend nearly half their working hours on administrative tasks — charting, documentation, insurance correspondence, and patient communication. This administrative burden contributes to burnout, reduces time with patients, and creates inefficiencies that ripple through entire practices. AI workflows can dramatically reduce this burden by automating clinical documentation, generating patient education materials, summarizing research literature, and streamlining insurance pre-authorization processes. Our guide provides HIPAA-conscious workflow templates that healthcare professionals can implement within their existing systems, whether you work in a private practice, hospital system, or outpatient clinic. Every workflow prioritizes patient safety and data privacy.",
+    "benefits": [
+      "Reduce clinical documentation time by drafting SOAP notes and visit summaries with AI",
+      "Generate customized patient education materials in plain language for any condition",
+      "Summarize medical research papers and clinical guidelines in minutes instead of hours",
+      "Automate insurance pre-authorization letters and appeals documentation",
+      "Create staff training materials and standard operating procedures efficiently"
+    ],
+    "freeTips": [
+      {
+        "title": "Draft Patient Education Handouts with AI",
+        "description": "Use ChatGPT or Claude to generate patient education materials tailored to specific conditions, medications, or procedures. Input the clinical details and ask for output written at a sixth-grade reading level with clear action steps, warning signs to watch for, and when to call the office. Review for clinical accuracy, add your practice branding, and you have a professional handout in minutes instead of searching for generic printouts that may not match your care instructions."
+      },
+      {
+        "title": "Summarize Research Papers in Minutes",
+        "description": "Paste the full text of a medical journal article into Claude and ask for a structured summary including study design, sample size, key findings, limitations, and clinical relevance to your practice. This allows you to stay current with literature across your specialty without dedicating entire evenings to reading. You can process five to ten papers in the time it would normally take to read one thoroughly."
+      },
+      {
+        "title": "Streamline Pre-Authorization Letters",
+        "description": "Create a prompt template that includes the patient's diagnosis, relevant clinical history, failed treatments, and the requested procedure or medication. Feed this into an AI tool and ask it to generate a medical necessity letter addressed to the insurance company with appropriate CPT and ICD-10 codes referenced. The AI produces a compelling, well-structured letter that significantly reduces the time your staff spends on pre-auth paperwork."
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Clinical Documentation Assistance",
+        "description": "Generate draft SOAP notes, progress notes, and discharge summaries from structured inputs or voice dictation transcripts. AI produces properly formatted clinical documentation that clinicians review and finalize, cutting documentation time significantly.",
+        "tools": ["Claude", "ChatGPT", "Nuance DAX", "Otter.ai"]
+      },
+      {
+        "title": "Patient Education Material Generation",
+        "description": "Create condition-specific, medication-specific, and procedure-specific education materials written in accessible language. Generate materials in multiple languages and at appropriate literacy levels for diverse patient populations.",
+        "tools": ["ChatGPT", "Claude", "Canva AI", "Google Docs"]
+      },
+      {
+        "title": "Medical Literature Summarization",
+        "description": "Process journal articles, clinical guidelines, and systematic reviews to extract key findings, clinical implications, and evidence grades. Build a personal knowledge base that keeps you current without overwhelming reading demands.",
+        "tools": ["Claude", "ChatGPT", "Elicit", "Semantic Scholar"]
+      },
+      {
+        "title": "Insurance and Administrative Automation",
+        "description": "Draft pre-authorization requests, appeal letters, referral documentation, and compliance reports from structured patient data. Reduces administrative staff workload and accelerates approval timelines for patients awaiting care.",
+        "tools": ["ChatGPT", "Claude", "Zapier", "Google Docs"]
+      }
+    ],
+    "tools": ["ChatGPT", "Claude", "Nuance DAX", "Otter.ai", "Canva AI", "Zapier", "Elicit", "Google Docs"],
+    "stats": {
+      "adoptionRate": "29%",
+      "timeSaved": "9 hours/week",
+      "roiIncrease": "22%",
+      "source": "AMA Digital Health Survey 2025"
+    },
+    "guidePrice": 3900,
+    "stripePriceId": "price_healthcare_professionals",
+    "relatedProfessions": ["hr-recruitment", "project-managers", "product-managers"],
+    "faq": [
+      {
+        "question": "What format is the guide in?",
+        "answer": "The guide is a PDF with clinical workflow templates, prompt libraries organized by specialty and task type, and data privacy checklists. It includes a quick-start section so you can implement your first workflow within 20 minutes of opening the guide."
+      },
+      {
+        "question": "Are these workflows HIPAA compliant?",
+        "answer": "The guide provides HIPAA-conscious workflow designs that include data de-identification steps, guidance on using BAA-covered AI tools, and clear protocols for what patient data can and cannot be processed through AI systems. We always recommend consulting your compliance officer for your specific organizational context."
+      },
+      {
+        "question": "Can nurses, PAs, and other clinical staff use these workflows too?",
+        "answer": "Yes. The workflows are designed for the entire clinical team including physicians, nurse practitioners, physician assistants, nurses, and clinical administrators. Each workflow indicates which roles benefit most and includes role-specific variations where relevant."
+      },
+      {
+        "question": "Will AI replace clinical judgment in these workflows?",
+        "answer": "Never. Every workflow positions AI as a documentation and research assistant, not a clinical decision-maker. AI generates drafts and summaries that clinicians review, edit, and approve. The goal is to reduce administrative burden so you can spend more time on the clinical reasoning and patient relationships that only you can provide."
+      }
+    ],
+    "guideTableOfContents": [
+      "Chapter 1: AI in Healthcare — Opportunities, Boundaries, and Privacy",
+      "Chapter 2: Clinical Documentation Workflows — SOAP Notes and Summaries",
+      "Chapter 3: Patient Education Material Generation",
+      "Chapter 4: Medical Literature Review and Research Summarization",
+      "Chapter 5: Insurance Pre-Auth, Appeals, and Administrative Automation",
+      "Chapter 6: Practice Management and Staff Training Workflows",
+      "Chapter 7: HIPAA Compliance, Data Privacy, and AI Governance"
+    ],
+    "agencyAvailable": true,
+    "publishedAt": "2026-01-15T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "slug": "software-developers",
+    "title": "Software Developers",
+    "category": "Technology & Engineering",
+    "tier": 1,
+    "metaTitle": "AI Workflows for Software Developers | OpenClaw",
+    "metaDescription": "Ship code faster with AI workflows for development, debugging, code review, and documentation. Get the developer's guide to AI-powered productivity now.",
+    "heroHeadline": "AI Workflows Built for Software Developers",
+    "heroSubheadline": "Write better code faster, automate tedious development tasks, and reduce debugging time with AI workflows engineered for professional developers.",
+    "overview": "Software developers are uniquely positioned to leverage AI because the tools integrate directly into existing development environments. Beyond simple code completion, AI workflows can automate code review, generate comprehensive test suites, refactor legacy codebases, produce API documentation, debug complex issues, and accelerate learning of new frameworks and languages. The key is knowing how to prompt effectively for technical tasks, chain AI tools together for complex development workflows, and maintain code quality standards while moving faster. Our guide provides production-ready workflows covering the full development lifecycle from planning and architecture through deployment and maintenance, with specific prompts and configurations for every major programming language and framework.",
+    "benefits": [
+      "Generate unit tests, integration tests, and edge case coverage for existing code",
+      "Automate code review with AI that catches bugs, security issues, and style violations",
+      "Produce comprehensive API documentation and README files from your codebase",
+      "Debug complex issues faster with AI-assisted log analysis and root cause identification",
+      "Refactor legacy code with AI-guided modernization patterns and migration strategies"
+    ],
+    "freeTips": [
+      {
+        "title": "Generate Comprehensive Test Suites from Existing Code",
+        "description": "Paste a function or module into Claude or ChatGPT and ask it to generate unit tests covering happy paths, edge cases, error conditions, and boundary values. Specify your testing framework — Jest, pytest, JUnit, or whatever you use — and the AI will produce test files that follow your framework's conventions. This is especially powerful for legacy code with no existing test coverage, where writing tests from scratch is the biggest barrier to refactoring."
+      },
+      {
+        "title": "Use AI as a Debugging Partner",
+        "description": "When you encounter a confusing bug, paste the error message, relevant code, and a description of the expected versus actual behavior into an AI tool. Ask it to identify potential root causes ranked by likelihood and suggest specific fixes for each. For complex issues, provide log output and ask for pattern analysis. This approach often surfaces causes you might not consider because the AI can draw on patterns across millions of codebases."
+      },
+      {
+        "title": "Automate Pull Request Descriptions",
+        "description": "Use a git diff or list of changed files as input to an AI tool and ask it to generate a pull request description that summarizes what changed, why it changed, how to test it, and any migration or deployment considerations. This saves time on every PR and produces more thorough descriptions that make code review faster and more effective for your entire team."
+      }
+    ],
+    "useCases": [
+      {
+        "title": "AI-Powered Code Review and Quality Assurance",
+        "description": "Run AI analysis on pull requests to catch bugs, security vulnerabilities, performance issues, and style inconsistencies before human review. AI provides specific, actionable feedback with suggested fixes for each issue detected.",
+        "tools": ["GitHub Copilot", "Claude", "ChatGPT", "CodeRabbit"]
+      },
+      {
+        "title": "Test Generation and Coverage Expansion",
+        "description": "Generate comprehensive test suites for existing code, including unit tests, integration tests, and edge case scenarios. AI analyzes code paths and produces tests in your framework of choice, dramatically accelerating the path to reliable test coverage.",
+        "tools": ["ChatGPT", "Claude", "GitHub Copilot", "Cursor"]
+      },
+      {
+        "title": "Documentation Generation and Maintenance",
+        "description": "Produce API documentation, inline code comments, README files, architecture decision records, and onboarding guides directly from your codebase. AI keeps documentation in sync with code changes as part of your CI/CD pipeline.",
+        "tools": ["Claude", "ChatGPT", "GitHub Copilot", "Mintlify"]
+      },
+      {
+        "title": "Debugging and Root Cause Analysis",
+        "description": "Analyze error logs, stack traces, and system behavior to identify root causes of complex bugs. AI correlates patterns across distributed systems and suggests targeted fixes with explanations of the underlying issue.",
+        "tools": ["ChatGPT", "Claude", "Cursor", "Sentry"]
+      },
+      {
+        "title": "Legacy Code Refactoring and Migration",
+        "description": "Plan and execute codebase modernization by analyzing legacy code, suggesting refactoring strategies, generating migration scripts, and producing updated code that follows current best practices while maintaining backward compatibility.",
+        "tools": ["Claude", "ChatGPT", "GitHub Copilot", "Cursor"]
+      }
+    ],
+    "tools": ["GitHub Copilot", "Claude", "ChatGPT", "Cursor", "CodeRabbit", "Mintlify", "Sentry", "Vercel AI"],
+    "stats": {
+      "adoptionRate": "72%",
+      "timeSaved": "18 hours/week",
+      "roiIncrease": "55%",
+      "source": "Stack Overflow Developer Survey 2025"
+    },
+    "guidePrice": 3900,
+    "stripePriceId": "price_software_developers",
+    "relatedProfessions": ["product-managers", "project-managers", "marketing-professionals"],
+    "faq": [
+      {
+        "question": "What format is the guide in?",
+        "answer": "The guide is a comprehensive PDF with code examples in Python, JavaScript/TypeScript, Java, Go, and Ruby. It includes a companion GitHub repository with prompt templates, shell scripts for AI-powered workflows, and CI/CD configuration examples you can fork and customize."
+      },
+      {
+        "question": "Which programming languages and frameworks are covered?",
+        "answer": "The workflows are language-agnostic with specific examples in Python, JavaScript, TypeScript, Java, Go, Ruby, and C#. Framework-specific guidance covers React, Next.js, Django, Spring Boot, and Rails, but the principles apply to any modern tech stack."
+      },
+      {
+        "question": "Will AI-generated code introduce security vulnerabilities?",
+        "answer": "The guide includes a dedicated security workflow for validating AI-generated code. You will learn how to prompt AI for security-conscious output, run automated security scans on generated code, and integrate AI code review into your existing security practices to actually reduce vulnerabilities compared to purely manual development."
+      },
+      {
+        "question": "How do these workflows compare to just using GitHub Copilot?",
+        "answer": "Copilot is excellent for inline code completion, but it is only one piece of the puzzle. The guide covers orchestrating multiple AI tools for end-to-end workflows: architecture planning, code review, testing, documentation, debugging, and deployment. You will learn when to use each tool and how to chain them together for maximum productivity."
+      }
+    ],
+    "guideTableOfContents": [
+      "Chapter 1: Setting Up Your AI-Enhanced Development Environment",
+      "Chapter 2: Code Generation — Beyond Autocomplete to Full Workflows",
+      "Chapter 3: AI-Powered Code Review and Quality Assurance",
+      "Chapter 4: Test Generation, Coverage Analysis, and TDD with AI",
+      "Chapter 5: Documentation That Writes and Updates Itself",
+      "Chapter 6: Debugging, Log Analysis, and Root Cause Identification",
+      "Chapter 7: Legacy Code Refactoring and Migration Strategies",
+      "Chapter 8: Security, Best Practices, and AI Governance for Dev Teams"
+    ],
+    "agencyAvailable": true,
+    "publishedAt": "2026-01-15T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "slug": "product-managers",
+    "title": "Product Managers",
+    "category": "Management & Operations",
+    "tier": 1,
+    "metaTitle": "AI Workflows for Product Managers | OpenClaw",
+    "metaDescription": "Make better product decisions faster with AI workflows for user research, roadmapping, and stakeholder communication. Download the PM's AI playbook today.",
+    "heroHeadline": "AI Workflows Built for Product Managers",
+    "heroSubheadline": "Synthesize user research, write better specs, and align stakeholders faster with AI workflows designed for the demands of modern product management.",
+    "overview": "Product managers sit at the intersection of business, technology, and user experience — constantly synthesizing information from dozens of sources to make decisions that shape the product roadmap. AI workflows amplify your effectiveness by automating user research synthesis, generating PRDs and feature specifications, analyzing competitor landscapes, processing customer feedback at scale, and drafting stakeholder communications. Instead of spending days compiling insights from user interviews or weeks writing comprehensive product specs, you can use AI to handle the heavy lifting while you focus on the strategic judgment and cross-functional leadership that defines great product management. Our guide covers workflows for every stage of the product lifecycle.",
+    "benefits": [
+      "Synthesize user interview transcripts and survey data into actionable insights in minutes",
+      "Generate comprehensive PRDs, feature specs, and user stories from product briefs",
+      "Analyze competitor products, pricing, and positioning across your market landscape",
+      "Process thousands of customer feedback items to identify trends and prioritize features",
+      "Draft roadmap presentations, launch plans, and stakeholder updates efficiently"
+    ],
+    "freeTips": [
+      {
+        "title": "Synthesize User Research at Scale",
+        "description": "After conducting user interviews, paste the transcripts into Claude and ask it to identify recurring themes, pain points, feature requests, and direct quotes organized by topic. If you have ten or more interviews, process them in batches and then ask the AI to find patterns across all batches. This produces a research synthesis document in under an hour that would typically take days of manual analysis, and it catches patterns that human reviewers sometimes miss."
+      },
+      {
+        "title": "Generate PRDs from Product Briefs",
+        "description": "Write a one-page product brief covering the problem, target user, desired outcome, and constraints. Feed it into ChatGPT with a prompt to expand it into a full PRD including user stories, acceptance criteria, technical considerations, success metrics, and edge cases. The AI produces a thorough first draft that you refine with your product knowledge, saving hours of blank-page writing time for every feature."
+      },
+      {
+        "title": "Build Competitive Analysis Frameworks Quickly",
+        "description": "Describe your product category and key competitors to an AI tool and ask it to generate a competitive analysis framework with feature comparison matrices, positioning maps, pricing analysis, and strategic opportunity areas. Feed in specific competitor landing pages or product documentation for more detailed analysis. This gives you a structured competitive view that you can present to leadership or use for strategic planning."
+      }
+    ],
+    "useCases": [
+      {
+        "title": "User Research Synthesis and Insight Generation",
+        "description": "Process interview transcripts, survey responses, and usability test recordings to extract themes, pain points, and opportunities. AI identifies patterns across large datasets that would take days to analyze manually and presents findings in presentation-ready formats.",
+        "tools": ["Claude", "ChatGPT", "Dovetail", "Otter.ai"]
+      },
+      {
+        "title": "Product Specification and Requirements Writing",
+        "description": "Generate PRDs, feature specifications, user stories, and acceptance criteria from product briefs and strategy documents. AI produces comprehensive first drafts that cover edge cases, technical considerations, and success metrics.",
+        "tools": ["ChatGPT", "Claude", "Notion AI", "Linear"]
+      },
+      {
+        "title": "Customer Feedback Analysis at Scale",
+        "description": "Process app store reviews, support tickets, NPS responses, and social mentions to identify feature demand, satisfaction drivers, and churn risks. AI categorizes and quantifies feedback themes across thousands of data points.",
+        "tools": ["Claude", "ChatGPT", "Zapier", "Google Sheets AI"]
+      },
+      {
+        "title": "Competitive Intelligence and Market Analysis",
+        "description": "Monitor competitor product launches, pricing changes, and feature updates. Generate structured competitive analysis reports with strategic implications and opportunity identification for your product roadmap.",
+        "tools": ["ChatGPT", "Claude", "Perplexity", "Google Sheets AI"]
+      },
+      {
+        "title": "Stakeholder Communication and Roadmap Presentation",
+        "description": "Draft executive summaries, roadmap presentations, launch announcements, and sprint review updates. AI adapts messaging for different audiences — engineers, designers, executives, and customers — from a single source of truth.",
+        "tools": ["ChatGPT", "Claude", "Gamma", "Notion AI"]
+      }
+    ],
+    "tools": ["ChatGPT", "Claude", "Notion AI", "Dovetail", "Zapier", "Gamma", "Linear", "Perplexity"],
+    "stats": {
+      "adoptionRate": "52%",
+      "timeSaved": "13 hours/week",
+      "roiIncrease": "35%",
+      "source": "Productboard State of Product Management 2025"
+    },
+    "guidePrice": 3900,
+    "stripePriceId": "price_product_managers",
+    "relatedProfessions": ["project-managers", "software-developers", "marketing-professionals"],
+    "faq": [
+      {
+        "question": "What format is the guide in?",
+        "answer": "The guide is a comprehensive PDF with 70+ pages of workflows, prompt templates, and real-world examples from B2B and B2C product teams. It includes downloadable templates for PRDs, competitive analysis frameworks, and customer feedback analysis spreadsheets."
+      },
+      {
+        "question": "Is this guide relevant for both B2B and B2C product managers?",
+        "answer": "Yes. Every workflow includes context-specific variations for B2B enterprise products and B2C consumer products. The fundamental workflows are the same, but the guide highlights where approach, metrics, and stakeholder communication differ between the two contexts."
+      },
+      {
+        "question": "How do these workflows integrate with tools like Jira, Linear, or Notion?",
+        "answer": "The guide includes specific integration recipes for connecting AI workflows to Jira, Linear, Notion, Confluence, and Productboard. You will learn how to set up automated workflows that push AI-generated specs directly into your project management tools."
+      },
+      {
+        "question": "Can AI really help with strategic product decisions?",
+        "answer": "AI excels at processing large amounts of data and surfacing patterns, but strategic judgment remains yours. The workflows help you make better-informed decisions by ensuring you have synthesized all available data — user research, competitive intelligence, market trends, and customer feedback — before making calls on prioritization and direction."
+      }
+    ],
+    "guideTableOfContents": [
+      "Chapter 1: The AI-Augmented Product Manager — Mindset and Setup",
+      "Chapter 2: User Research Synthesis and Insight Extraction Workflows",
+      "Chapter 3: Writing PRDs, Specs, and User Stories with AI",
+      "Chapter 4: Customer Feedback Analysis and Feature Prioritization",
+      "Chapter 5: Competitive Intelligence and Market Research Automation",
+      "Chapter 6: Stakeholder Communication and Roadmap Presentation",
+      "Chapter 7: Metrics, Analytics, and Data-Driven Decision Workflows",
+      "Chapter 8: Building Your PM AI Toolkit and Best Practices"
+    ],
+    "agencyAvailable": true,
+    "publishedAt": "2026-01-15T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "slug": "hr-recruitment",
+    "title": "HR & Recruitment",
+    "category": "People & HR",
+    "tier": 1,
+    "metaTitle": "AI Workflows for HR & Recruitment Teams | OpenClaw",
+    "metaDescription": "Hire faster and build better workplaces with AI workflows for recruiting, onboarding, and employee engagement. Get your HR team's essential AI guide today.",
+    "heroHeadline": "AI Workflows Built for HR & Recruitment",
+    "heroSubheadline": "Source better candidates, streamline hiring pipelines, and automate HR operations with AI workflows purpose-built for people teams.",
+    "overview": "HR and recruitment professionals manage one of the most people-intensive functions in any organization — sourcing candidates, screening resumes, coordinating interviews, onboarding new hires, developing policies, and nurturing employee engagement. AI workflows transform these high-volume, repetitive processes into streamlined operations that let your team focus on the human side of human resources. From writing compelling job descriptions that attract diverse candidates to automating interview scheduling and generating onboarding documentation, these workflows reduce time-to-hire, improve candidate experience, and free HR professionals to focus on strategic initiatives like culture building, retention programs, and organizational development.",
+    "benefits": [
+      "Write inclusive, compelling job descriptions optimized for diverse candidate pools",
+      "Screen and rank resumes against job requirements consistently and at scale",
+      "Generate structured interview questions and scoring rubrics for any role",
+      "Automate onboarding documentation, welcome emails, and training schedules",
+      "Draft HR policies, employee handbooks, and compliance documentation efficiently"
+    ],
+    "freeTips": [
+      {
+        "title": "Write Job Descriptions That Attract Diverse Candidates",
+        "description": "Input your role requirements into an AI tool and ask it to generate a job description that uses inclusive language, focuses on outcomes rather than years of experience, and highlights growth opportunities and company culture. Then ask the AI to review the description for gendered language, unnecessary jargon, and requirements that might discourage qualified candidates from underrepresented groups. This two-step process produces descriptions that consistently attract broader, more diverse applicant pools."
+      },
+      {
+        "title": "Create Structured Interview Kits in Minutes",
+        "description": "Feed a job description and your company's competency framework into ChatGPT or Claude and ask it to generate a structured interview kit with behavioral questions mapped to each required competency, follow-up probes, a scoring rubric with specific indicators for each rating level, and a candidate evaluation template. This ensures consistency across interviewers and significantly reduces bias in your hiring process."
+      },
+      {
+        "title": "Automate First-Week Onboarding Communication",
+        "description": "Create an AI-powered workflow that generates personalized welcome emails, first-week schedules, team introduction messages, and system access checklists for each new hire based on their role, department, and start date. Connect this to your HRIS via Zapier so it triggers automatically when a new hire record is created, ensuring no new employee falls through the cracks during their critical first week."
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Job Description and Employer Brand Content",
+        "description": "Generate role-specific job descriptions, employer brand content, careers page copy, and recruitment marketing materials that attract qualified, diverse candidates. AI ensures inclusive language and optimizes postings for job board search algorithms.",
+        "tools": ["ChatGPT", "Claude", "Textio", "Grammarly"]
+      },
+      {
+        "title": "Resume Screening and Candidate Matching",
+        "description": "Process high volumes of applications to identify candidates who best match role requirements based on skills, experience, and qualifications. AI provides consistent screening criteria and surfaces non-obvious candidate strengths that keyword filters miss.",
+        "tools": ["ChatGPT", "Claude", "Zapier", "Greenhouse"]
+      },
+      {
+        "title": "Interview Process Automation",
+        "description": "Generate structured interview questions, scoring rubrics, and candidate evaluation forms. Automate interview scheduling, feedback collection, and debrief summaries. Ensures a consistent, fair evaluation process across all candidates.",
+        "tools": ["ChatGPT", "Claude", "Calendly", "Zapier"]
+      },
+      {
+        "title": "Onboarding and Employee Documentation",
+        "description": "Produce personalized onboarding plans, training schedules, employee handbook sections, and policy documents. AI generates role-specific materials automatically when new hires are added to your HRIS, creating a seamless day-one experience.",
+        "tools": ["ChatGPT", "Claude", "Notion AI", "Zapier"]
+      },
+      {
+        "title": "Employee Engagement and Pulse Survey Analysis",
+        "description": "Analyze pulse survey results, exit interview data, and engagement metrics to identify trends, risk areas, and recommended interventions. AI processes qualitative feedback at scale and generates executive summaries with actionable recommendations.",
+        "tools": ["Claude", "ChatGPT", "Google Sheets AI", "Culture Amp"]
+      }
+    ],
+    "tools": ["ChatGPT", "Claude", "Zapier", "Greenhouse", "Notion AI", "Textio", "Calendly", "Culture Amp"],
+    "stats": {
+      "adoptionRate": "39%",
+      "timeSaved": "15 hours/week",
+      "roiIncrease": "33%",
+      "source": "SHRM HR Technology Survey 2025"
+    },
+    "guidePrice": 3900,
+    "stripePriceId": "price_hr_recruitment",
+    "relatedProfessions": ["marketing-professionals", "project-managers", "sales-teams"],
+    "faq": [
+      {
+        "question": "What format is the guide in?",
+        "answer": "The guide is a practical PDF with prompt libraries organized by HR function — recruiting, onboarding, employee relations, compliance, and L&D. It includes downloadable templates for interview kits, onboarding checklists, and policy documents that you can customize to your organization."
+      },
+      {
+        "question": "Are these AI recruiting workflows compliant with equal employment laws?",
+        "answer": "The guide is designed with compliance in mind and includes guidance on avoiding AI bias in hiring, maintaining EEOC compliance, and documenting your AI-assisted processes for audit purposes. However, we always recommend reviewing AI-assisted hiring practices with your employment counsel for your specific jurisdiction."
+      },
+      {
+        "question": "Can we use these workflows with our existing ATS and HRIS?",
+        "answer": "Yes. The workflows integrate with popular platforms including Greenhouse, Lever, Workday, BambooHR, and ADP through Zapier and native API connections. The guide provides specific setup instructions for each major platform."
+      },
+      {
+        "question": "How do we ensure AI does not introduce bias into our hiring process?",
+        "answer": "The guide dedicates an entire chapter to bias mitigation. You will learn how to audit AI outputs for demographic bias, use structured evaluation criteria that AI supports rather than replaces, and implement human-in-the-loop checkpoints at every stage of the hiring pipeline."
+      }
+    ],
+    "guideTableOfContents": [
+      "Chapter 1: AI in HR — Opportunities, Ethics, and Getting Started",
+      "Chapter 2: Job Descriptions and Recruitment Marketing with AI",
+      "Chapter 3: Resume Screening, Sourcing, and Candidate Matching",
+      "Chapter 4: Interview Design, Scheduling, and Evaluation Workflows",
+      "Chapter 5: Onboarding Automation and New Hire Experience",
+      "Chapter 6: Policy Documentation, Handbooks, and Compliance",
+      "Chapter 7: Employee Engagement Analysis and Retention Strategies",
+      "Chapter 8: Bias Mitigation and Responsible AI in HR"
+    ],
+    "agencyAvailable": true,
+    "publishedAt": "2026-01-15T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  },
+  {
+    "slug": "sales-teams",
+    "title": "Sales Teams",
+    "category": "Sales & Services",
+    "tier": 1,
+    "metaTitle": "AI Workflows for Sales Teams | OpenClaw",
+    "metaDescription": "Close more deals with AI workflows for prospecting, outreach, and pipeline management. Get the sales playbook that top-performing teams are using today.",
+    "heroHeadline": "AI Workflows Built for Sales Teams",
+    "heroSubheadline": "Prospect smarter, personalize outreach at scale, and accelerate deal velocity with AI workflows engineered for high-performing sales organizations.",
+    "overview": "Sales teams that adopt AI workflows gain a compounding competitive advantage — they prospect more efficiently, personalize outreach at a scale that was previously impossible, and extract deal intelligence that helps them close faster. AI can research prospects before calls, generate personalized email sequences based on company and persona data, analyze CRM pipeline data to predict which deals need attention, summarize call recordings for coaching and follow-up, and draft proposals and SOWs in a fraction of the time. Our guide provides the exact workflows that quota-carrying reps and sales leaders need to increase pipeline velocity, improve win rates, and spend more time selling instead of doing administrative work that does not directly generate revenue.",
+    "benefits": [
+      "Generate hyper-personalized outreach emails that reference prospect-specific triggers",
+      "Research accounts and contacts automatically before every discovery call",
+      "Analyze pipeline data to predict deal outcomes and prioritize rep activity",
+      "Summarize sales calls and extract action items, objections, and buying signals",
+      "Draft proposals, SOWs, and pricing documents from deal notes in minutes"
+    ],
+    "freeTips": [
+      {
+        "title": "Personalize Cold Outreach at Scale",
+        "description": "Before sending any outreach, feed the prospect's LinkedIn profile, company website, and recent news into an AI tool. Ask it to identify three specific pain points this person likely faces based on their role and industry, then generate an email that references a specific trigger event and connects it to your solution's value proposition. This level of personalization at scale is impossible manually but AI makes it achievable for every single prospect in your sequence."
+      },
+      {
+        "title": "Pre-Call Research Briefings in Two Minutes",
+        "description": "Create a prompt template that takes a company name and contact name as inputs, then ask the AI to generate a one-page briefing covering the company's recent news, financial performance, competitive landscape, likely pain points, and potential objections based on their industry. Run this for every discovery call and you will walk in better prepared than 95% of reps, asking smarter questions and building credibility from the first minute."
+      },
+      {
+        "title": "Extract Deal Intelligence from Call Recordings",
+        "description": "After every sales call, feed the transcript from Gong, Chorus, or Otter.ai into ChatGPT and ask it to extract the prospect's stated pain points, budget indicators, decision timeline, stakeholders mentioned, objections raised, and explicit next steps agreed upon. Format the output as a CRM update and follow-up action plan. This ensures nothing falls through the cracks and gives your manager visibility into deal health without requiring a separate debrief."
+      }
+    ],
+    "useCases": [
+      {
+        "title": "Personalized Prospecting and Outreach",
+        "description": "Research prospects automatically and generate personalized email sequences, LinkedIn messages, and call scripts based on prospect-specific data including company news, role challenges, and industry trends. Achieves one-to-one personalization at one-to-many scale.",
+        "tools": ["ChatGPT", "Claude", "Apollo.io", "Zapier"]
+      },
+      {
+        "title": "Sales Call Intelligence and Coaching",
+        "description": "Analyze recorded sales calls to extract key moments, objections, buying signals, and competitive mentions. Generate call summaries, coaching recommendations, and follow-up plans. Helps reps improve and managers coach more effectively.",
+        "tools": ["Gong", "Otter.ai", "ChatGPT", "Claude"]
+      },
+      {
+        "title": "Pipeline Analysis and Deal Prioritization",
+        "description": "Analyze CRM data to predict deal outcomes, identify at-risk opportunities, and recommend specific actions for each deal in the pipeline. AI flags deals that need intervention before they stall and surfaces patterns that predict wins and losses.",
+        "tools": ["ChatGPT", "Google Sheets AI", "Salesforce", "Claude"]
+      },
+      {
+        "title": "Proposal and SOW Generation",
+        "description": "Draft custom proposals, statements of work, and pricing documents from deal notes and discovery call summaries. AI produces polished, professional documents that match your brand voice and address each prospect's specific requirements.",
+        "tools": ["ChatGPT", "Claude", "PandaDoc", "Google Docs"]
+      },
+      {
+        "title": "Account Research and Competitive Battle Cards",
+        "description": "Generate comprehensive account profiles and competitive battle cards that arm reps with the intelligence they need for every conversation. AI pulls together company data, industry context, competitor comparisons, and tailored talk tracks.",
+        "tools": ["Claude", "ChatGPT", "Perplexity", "Notion AI"]
+      }
+    ],
+    "tools": ["ChatGPT", "Claude", "Gong", "Apollo.io", "Zapier", "Salesforce", "PandaDoc", "Perplexity"],
+    "stats": {
+      "adoptionRate": "45%",
+      "timeSaved": "12 hours/week",
+      "roiIncrease": "38%",
+      "source": "Salesforce State of Sales Report 2025"
+    },
+    "guidePrice": 3900,
+    "stripePriceId": "price_sales_teams",
+    "relatedProfessions": ["real-estate-agents", "marketing-professionals", "hr-recruitment"],
+    "faq": [
+      {
+        "question": "What format is the guide in?",
+        "answer": "The guide is a results-focused PDF with copy-paste prompt templates, email sequence frameworks, and CRM integration walkthroughs. It includes a bonus objection-handling prompt library and a competitive battle card template that you can deploy across your entire sales team."
+      },
+      {
+        "question": "Will AI-generated outreach emails end up in spam?",
+        "answer": "The guide teaches you how to use AI to generate emails that sound authentically human, not templated. You will learn personalization techniques, proper sending practices, and content strategies that actually improve deliverability compared to generic mass outreach because every email is uniquely crafted for each recipient."
+      },
+      {
+        "question": "Can individual reps use these workflows or does the whole team need to adopt them?",
+        "answer": "Individual reps can start using most workflows immediately on their own. The guide also includes team-level deployment playbooks for sales managers who want to roll out AI workflows across their entire organization with consistent processes and shared prompt libraries."
+      },
+      {
+        "question": "How do these workflows integrate with Salesforce, HubSpot, or other CRMs?",
+        "answer": "The guide provides specific integration recipes for Salesforce, HubSpot, Pipedrive, and Close.com using Zapier and native integrations. You will learn how to connect AI-generated insights directly to your CRM records, automate activity logging, and build AI-powered pipeline dashboards."
+      }
+    ],
+    "guideTableOfContents": [
+      "Chapter 1: The AI-Powered Sales Rep — Foundation and Mindset",
+      "Chapter 2: Prospecting and Account Research Automation",
+      "Chapter 3: Personalized Outreach Sequences at Scale",
+      "Chapter 4: Sales Call Intelligence — Prep, Recording, and Follow-Up",
+      "Chapter 5: Pipeline Management and Deal Prioritization with AI",
+      "Chapter 6: Proposal, SOW, and Pricing Document Generation",
+      "Chapter 7: Sales Team Deployment — Playbooks, Training, and Coaching",
+      "Chapter 8: CRM Integration and Sales Operations Workflows"
+    ],
+    "agencyAvailable": true,
+    "publishedAt": "2026-01-15T00:00:00Z",
+    "updatedAt": "2026-02-01T00:00:00Z"
+  }
+]
