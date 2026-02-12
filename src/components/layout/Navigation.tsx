@@ -19,11 +19,12 @@ export function Navigation() {
         <Link
           key={item.href}
           href={item.href}
-          className={`text-sm font-medium transition-colors hover:text-brand-600 ${
-            pathname.startsWith(item.href)
-              ? "text-brand-700"
-              : "text-brand-500"
-          }`}
+          className="text-sm font-medium transition-colors"
+          style={{
+            color: pathname.startsWith(item.href)
+              ? "var(--text-primary)"
+              : "var(--text-muted)",
+          }}
         >
           {item.label}
         </Link>

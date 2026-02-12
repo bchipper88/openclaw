@@ -14,25 +14,43 @@ export function FreeTips({
   tipsPageHref,
 }: FreeTipsProps) {
   return (
-    <section className="bg-brand-50 py-16">
+    <section className="py-16" style={{ backgroundColor: "var(--bg-secondary)" }}>
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-3xl font-bold text-brand-900">
+        <h2
+          className="text-center text-3xl font-bold"
+          style={{ color: "var(--text-primary)" }}
+        >
           Free AI Tips for {professionTitle}
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-center text-brand-500">
+        <p
+          className="mx-auto mt-4 max-w-xl text-center"
+          style={{ color: "var(--text-secondary)" }}
+        >
           Start implementing AI today with these actionable tips. Want the
           complete playbook? Get the full guide below.
         </p>
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {tips.map((tip, index) => (
             <Card key={index} className="flex flex-col">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-brand-100 text-lg font-bold text-brand-600">
+              <div
+                className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg text-lg font-bold"
+                style={{
+                  backgroundColor: "var(--bg-elevated)",
+                  color: "var(--text-secondary)",
+                }}
+              >
                 {index + 1}
               </div>
-              <h3 className="text-lg font-semibold text-brand-800">
+              <h3
+                className="text-lg font-semibold"
+                style={{ color: "var(--text-primary)" }}
+              >
                 {tip.title}
               </h3>
-              <p className="mt-2 flex-1 text-sm text-brand-500">
+              <p
+                className="mt-2 flex-1 text-sm"
+                style={{ color: "var(--text-secondary)" }}
+              >
                 {tip.description}
               </p>
             </Card>

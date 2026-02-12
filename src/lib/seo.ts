@@ -5,7 +5,7 @@ export function generateProductJsonLd(profession: Profession) {
   return {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: `AI Workflow Guide for ${profession.title}`,
+    name: `OpenClaw Setup Guide for ${profession.title}`,
     description: profession.metaDescription,
     image: `${SITE_CONFIG.url}/images/professions/${profession.slug}.png`,
     offers: {

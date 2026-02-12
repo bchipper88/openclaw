@@ -2,7 +2,7 @@ export const SITE_CONFIG = {
   name: "OpenClaw",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://openclaw.com",
   description:
-    "AI workflow and automation setup guides for every profession. Get step-by-step instructions, prompts, and templates.",
+    "Step-by-step OpenClaw setup guides for every profession. Learn how to deploy the open-source AI agent for your industry with skills, automations, and workflows.",
   ogImage: "/images/og/default.png",
 } as const;
 

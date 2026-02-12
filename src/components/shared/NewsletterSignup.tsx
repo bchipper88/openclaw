@@ -16,8 +16,13 @@ export function NewsletterSignup() {
   if (submitted) {
     return (
       <div className="text-center">
-        <h3 className="text-2xl font-bold text-white">You&apos;re In!</h3>
-        <p className="mt-2 text-brand-200">
+        <h3
+          className="text-2xl font-bold"
+          style={{ color: "var(--text-primary)" }}
+        >
+          You&apos;re In!
+        </h3>
+        <p className="mt-2" style={{ color: "var(--text-secondary)" }}>
           Check your email for a confirmation link.
         </p>
       </div>
@@ -26,10 +31,13 @@ export function NewsletterSignup() {
 
   return (
     <div className="text-center">
-      <h3 className="text-2xl font-bold text-white">
+      <h3
+        className="text-2xl font-bold"
+        style={{ color: "var(--text-primary)" }}
+      >
         Get Free AI Workflow Tips
       </h3>
-      <p className="mt-2 text-brand-200">
+      <p className="mt-2" style={{ color: "var(--text-secondary)" }}>
         Weekly tips on implementing AI in your profession. No spam, unsubscribe
         anytime.
       </p>
@@ -43,7 +51,11 @@ export function NewsletterSignup() {
           placeholder="Enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="flex-1 rounded-lg px-4 py-3 text-brand-800 placeholder-brand-400 focus:outline-none focus:ring-2 focus:ring-accent-500"
+          className="flex-1 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-accent-500"
+          style={{
+            color: "var(--text-primary)",
+            backgroundColor: "var(--bg-card)",
+          }}
         />
         <button
           type="submit"

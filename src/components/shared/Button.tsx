@@ -11,10 +11,26 @@ interface ButtonProps {
   disabled?: boolean;
 }
 
-const VARIANTS = {
-  primary: "bg-brand-600 text-white hover:bg-brand-700 shadow-sm",
-  secondary: "bg-accent-500 text-white hover:bg-accent-600 shadow-sm",
-  outline: "border-2 border-brand-300 text-brand-700 hover:bg-brand-50",
+const VARIANT_CLASSES = {
+  primary: "shadow-sm",
+  secondary: "shadow-sm",
+  outline: "border-2",
+};
+
+const VARIANT_STYLES: Record<string, React.CSSProperties> = {
+  primary: {
+    backgroundColor: "var(--text-secondary)",
+    color: "#fff",
+  },
+  secondary: {
+    backgroundColor: "var(--text-secondary)",
+    color: "#fff",
+  },
+  outline: {
+    borderColor: "var(--border-hover)",
+    color: "var(--text-secondary)",
+    backgroundColor: "transparent",
+  },
 };
 
 const SIZES = {
@@ -33,11 +49,12 @@ export function Button({
   type = "button",
   disabled = false,
 }: ButtonProps) {
-  const classes = `inline-flex items-center justify-center rounded-lg font-semibold transition-all duration-200 ${VARIANTS[variant]} ${SIZES[size]} ${disabled ? "opacity-50 cursor-not-allowed" : ""} ${className}`;
+  const classes = `inline-flex items-center justify-center rounded-lg font-semibold transition-all duration-200 ${VARIANT_CLASSES[variant]} ${SIZES[size]} ${disabled ? "opacity-50 cursor-not-allowed" : ""} ${className}`;
+  const styles = VARIANT_STYLES[variant];
 
   if (href) {
     return (
-      <Link href={href} className={classes}>
+      <Link href={href} className={classes} style={styles}>
         {children}
       </Link>
     );
@@ -47,6 +64,7 @@ export function Button({
     <button
       type={type}
       className={classes}
+      style={styles}
       onClick={onClick}
       disabled={disabled}
     >

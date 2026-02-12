@@ -1,28 +1,40 @@
 ---
-title: "AI Workflows for Software Developers"
-description: "Extended guide content for software developer AI workflows"
+title: "OpenClaw for Software Developers"
+description: "Use OpenClaw as your AI development agent for code review, test generation, documentation automation, debugging, and CI/CD integration."
 ---
 
-## How AI is Changing Software Development
+## An AI Agent That Lives in Your Dev Workflow
 
-Software developers were among the earliest AI adopters, but most are still only using basic code completion. The real productivity gains come from building systematic AI workflows into your entire development process.
+Most developers have tried AI code completion. OpenClaw goes far beyond autocomplete. It is a free, open-source AI agent (165,000+ GitHub stars, MIT license) that runs locally on your machine, reads and writes your files, runs scripts, controls browsers, and calls APIs. It operates autonomously, integrates into your CI/CD pipeline, and maintains persistent memory across sessions -- meaning it builds genuine context about your codebase over time.
 
-### The Developer AI Stack
+OpenClaw supports Claude, GPT, Gemini, DeepSeek, and local models like LLaMA and Mistral. Access it through a web UI, API, Slack, Discord, or even WhatsApp and Telegram for on-the-go interactions. Its skills marketplace, ClawHub, has over 5,700 community-built skills covering everything from code review to infrastructure management.
 
-**78% of developers** now use AI coding assistants, but the top performers go far beyond autocomplete:
+### Code Review Skill
 
-- **55% faster** code review cycles with AI-assisted reviews
-- **40% reduction** in debugging time with AI-powered root cause analysis
-- **3x faster** documentation generation
-- **70% less time** writing boilerplate and tests
+Install the **Code Reviewer** skill from ClawHub and integrate it into your pull request workflow. OpenClaw reads diffs, analyzes code changes against your project's conventions, flags potential bugs, security issues, and performance concerns, and posts review comments directly to your PR. Hook it into GitHub Actions or GitLab CI so that every pull request gets an automated first-pass review before human eyes touch it.
 
-### Beyond Code Completion
+Because of persistent memory, OpenClaw learns your team's coding standards, architectural patterns, and common pitfalls. Its reviews get more relevant with each iteration.
 
-The developers getting the most from AI have built it into every stage of their workflow:
+### Test Generation
 
-1. **Architecture design** — Use Claude to evaluate trade-offs, generate system design documents, and review architectural decisions
-2. **Code review automation** — Set up AI-powered pre-review that catches common issues before human review
-3. **Test generation** — Automatically generate unit tests, integration tests, and edge cases from your codebase
-4. **Documentation workflows** — Generate and maintain API docs, READMEs, and technical specs from code
+Point OpenClaw at a source file or module and ask it to generate unit tests, integration tests, or edge case tests. It reads your existing test structure, matches your testing framework and assertion style, and produces tests that actually compile and run. The **Test Generator** skill on ClawHub supports Jest, pytest, Go testing, JUnit, and more.
 
-Our guide covers the exact tool configurations, IDE integrations, and CI/CD pipeline setups that 10x developers are using.
+Set up a workflow where OpenClaw monitors new code commits and automatically generates test stubs for untested functions, filing them as draft PRs for your review.
+
+### Documentation Automation
+
+OpenClaw reads your code and generates API documentation, README sections, inline comments, architecture decision records, and changelog entries. It can run on a schedule -- every time you merge to main, OpenClaw updates the docs to reflect the current state of the codebase.
+
+The **Doc Generator** skill supports OpenAPI specs, JSDoc, Python docstrings, Go doc comments, and Markdown output. Persistent memory means it maintains consistency in terminology and style across your entire documentation surface.
+
+### Debugging Assistant
+
+Paste an error trace or describe a bug, and OpenClaw searches your codebase for the relevant code paths, analyzes the logic, and suggests root causes with proposed fixes. It can run your test suite to verify hypotheses and iterate until the issue is resolved. Because it can read files and execute scripts locally, it does the actual investigation work rather than just offering generic advice.
+
+### CI/CD Integration
+
+OpenClaw's API makes it straightforward to embed into your CI/CD pipeline. Trigger it on build failures to analyze logs and suggest fixes. Use it as a deployment gate that reviews configuration changes. Set it up to monitor production logs and alert you through Slack or Discord when it detects anomalous patterns.
+
+### Getting Started
+
+Install OpenClaw from GitHub, connect it to your repository and CI system, browse ClawHub for developer skills, and start with code review. The agent runs on your own hardware, your code stays private, and it costs nothing.

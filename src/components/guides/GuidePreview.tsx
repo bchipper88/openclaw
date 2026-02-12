@@ -8,25 +8,44 @@ export function GuidePreview({
   professionTitle,
 }: GuidePreviewProps) {
   return (
-    <section className="bg-brand-50 py-16">
+    <section className="py-16" style={{ backgroundColor: "var(--bg-secondary)" }}>
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-center text-3xl font-bold text-brand-900">
+        <h2
+          className="text-center text-3xl font-bold"
+          style={{ color: "var(--text-primary)" }}
+        >
           What&apos;s Inside the Guide
         </h2>
-        <p className="mx-auto mt-4 max-w-xl text-center text-brand-500">
+        <p
+          className="mx-auto mt-4 max-w-xl text-center"
+          style={{ color: "var(--text-secondary)" }}
+        >
           Your complete AI workflow setup guide for {professionTitle} includes:
         </p>
-        <div className="mt-8 rounded-xl border border-brand-200 bg-white p-8">
+        <div
+          className="mt-8 rounded-xl border p-8"
+          style={{
+            borderColor: "var(--border-color)",
+            backgroundColor: "var(--bg-card)",
+          }}
+        >
           <ol className="space-y-4">
             {tableOfContents.map((chapter, index) => (
               <li
                 key={index}
-                className="flex items-start gap-4 text-brand-700"
+                className="flex items-start gap-4"
+                style={{ color: "var(--text-secondary)" }}
               >
-                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-100 text-sm font-bold text-brand-600">
+                <span
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold"
+                  style={{
+                    backgroundColor: "var(--bg-elevated)",
+                    color: "var(--text-secondary)",
+                  }}
+                >
                   {index + 1}
                 </span>
-                <span className="pt-1 text-brand-600">{chapter}</span>
+                <span className="pt-1" style={{ color: "var(--text-secondary)" }}>{chapter}</span>
               </li>
             ))}
           </ol>

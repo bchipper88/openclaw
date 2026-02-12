@@ -3,20 +3,20 @@ import { Button } from "@/components/shared/Button";
 import { Card } from "@/components/shared/Card";
 
 export const metadata: Metadata = {
-  title: "Hire Us - AI Workflow Setup Services",
+  title: "Hire Us - OpenClaw Setup Services",
   description:
-    "Let our team of AI specialists set up your automation workflows. Done-for-you implementation, training, and ongoing support.",
+    "Let our team deploy OpenClaw for you. Done-for-you setup, ClawHub skill installation, messaging integration, training, and ongoing support.",
 };
 
 const services = [
   {
     name: "Starter",
     price: "$1,500",
-    description: "Perfect for individuals or small teams",
+    description: "Basic OpenClaw deployment for individuals or small teams",
     features: [
-      "1 core AI workflow setup",
-      "ChatGPT/Claude configuration",
-      "2 automation integrations",
+      "Basic OpenClaw deployment on your infrastructure",
+      "5 ClawHub skills installed and configured",
+      "1 messaging integration (WhatsApp, Telegram, Slack, or Discord)",
       "1-hour training session",
       "30 days of email support",
     ],
@@ -25,28 +25,28 @@ const services = [
   {
     name: "Professional",
     price: "$3,500",
-    description: "Best for growing teams and departments",
+    description: "Full OpenClaw setup for growing teams and departments",
     features: [
-      "3 custom AI workflows",
-      "Full tool stack configuration",
-      "5 automation integrations",
+      "Full OpenClaw setup with optimized configuration",
+      "15+ ClawHub skills installed and configured",
+      "Custom skill development for your workflow",
+      "All messaging integrations (WhatsApp, Telegram, Slack, Discord, web)",
       "Team training session (up to 10 people)",
       "90 days of priority support",
-      "Custom prompt library",
     ],
     popular: true,
   },
   {
     name: "Enterprise",
     price: "Custom",
-    description: "For organizations with complex needs",
+    description: "Multi-team deployment for organizations with complex needs",
     features: [
-      "Unlimited workflow design",
-      "Enterprise tool integration",
-      "Custom AI model fine-tuning",
-      "Organization-wide training",
+      "Multi-team OpenClaw deployment",
+      "Custom integrations with internal tools and APIs",
+      "Bespoke skill development and fine-tuning",
+      "Organization-wide training program",
       "Dedicated account manager",
-      "SLA-backed support",
+      "Ongoing support with SLA",
     ],
     popular: false,
   },
@@ -54,16 +54,23 @@ const services = [
 
 export default function HireUsPage() {
   return (
-    <div className="py-16">
+    <div className="py-16" style={{ backgroundColor: "var(--bg-primary)" }}>
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-brand-900">
-            Let Us Set Up Your AI Workflows
+          <h1
+            className="text-4xl font-bold"
+            style={{ color: "var(--text-primary)" }}
+          >
+            Let Us Deploy OpenClaw for You
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-brand-500">
-            Don&apos;t have time to DIY? Our team of AI workflow specialists
-            will implement everything for you. Hands-off setup, thorough
-            training, and ongoing support.
+          <p
+            className="mx-auto mt-4 max-w-2xl text-lg"
+            style={{ color: "var(--text-muted)" }}
+          >
+            Don&apos;t have time to DIY? Our team of OpenClaw specialists
+            will deploy the open-source AI agent for your team, install the
+            right ClawHub skills, set up messaging integrations, and provide
+            hands-on training.
           </p>
         </div>
 
@@ -74,38 +81,54 @@ export default function HireUsPage() {
               padding="lg"
               className={
                 service.popular
-                  ? "relative border-2 border-brand-600 shadow-lg"
+                  ? "relative shadow-lg"
                   : ""
               }
+              {...(service.popular
+                ? { style: { border: "2px solid var(--text-secondary)" } }
+                : {})}
             >
               {service.popular && (
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-brand-600 px-4 py-1 text-xs font-bold text-white">
+                <span
+                  className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full px-4 py-1 text-xs font-bold"
+                  style={{ backgroundColor: "var(--text-secondary)", color: "var(--bg-primary)" }}
+                >
                   Most Popular
                 </span>
               )}
-              <h3 className="text-xl font-bold text-brand-800">
+              <h3
+                className="text-xl font-bold"
+                style={{ color: "var(--text-primary)" }}
+              >
                 {service.name}
               </h3>
-              <p className="mt-1 text-sm text-brand-500">
+              <p
+                className="mt-1 text-sm"
+                style={{ color: "var(--text-muted)" }}
+              >
                 {service.description}
               </p>
-              <p className="mt-4 text-4xl font-extrabold text-brand-900">
+              <p
+                className="mt-4 text-4xl font-extrabold"
+                style={{ color: "var(--text-primary)" }}
+              >
                 {service.price}
               </p>
               <ul className="mt-6 space-y-3">
                 {service.features.map((feature) => (
                   <li
                     key={feature}
-                    className="flex items-start gap-2 text-sm text-brand-600"
+                    className="flex items-start gap-2 text-sm"
+                    style={{ color: "var(--text-secondary)" }}
                   >
-                    <span className="mt-0.5 text-accent-500">&#10003;</span>
+                    <span className="mt-0.5" style={{ color: "var(--text-secondary)" }}>&#10003;</span>
                     {feature}
                   </li>
                 ))}
               </ul>
               <div className="mt-8">
                 <Button
-                  href="mailto:hello@openclaw.com?subject=Agency Services Inquiry"
+                  href="mailto:hello@openclaw.com?subject=OpenClaw Setup Services Inquiry"
                   variant={service.popular ? "primary" : "outline"}
                   className="w-full"
                 >

@@ -93,12 +93,18 @@ export default async function ProfessionPage({
 
       <StatsSection stats={profession.stats} />
 
-      <section className="py-16">
+      <section className="py-16" style={{ backgroundColor: "var(--bg-primary)" }}>
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-brand-900">
+          <h2
+            className="text-3xl font-bold"
+            style={{ color: "var(--text-primary)" }}
+          >
             How AI Transforms Work for {profession.title}
           </h2>
-          <p className="mt-6 text-lg leading-relaxed text-brand-600">
+          <p
+            className="mt-6 text-lg leading-relaxed"
+            style={{ color: "var(--text-secondary)" }}
+          >
             {profession.overview}
           </p>
           {mdxContent && (

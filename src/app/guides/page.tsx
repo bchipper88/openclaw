@@ -4,9 +4,9 @@ import { ProfessionCard } from "@/components/guides/ProfessionCard";
 import { SearchFilter } from "@/components/shared/SearchFilter";
 
 export const metadata: Metadata = {
-  title: "All AI Workflow Guides",
+  title: "All OpenClaw Setup Guides",
   description:
-    "Browse our complete directory of AI workflow and automation setup guides for every profession. Find step-by-step instructions for your role.",
+    "Browse our complete directory of OpenClaw setup guides for every profession. Deploy the open-source AI agent with step-by-step instructions for your role.",
 };
 
 export default function GuidesPage() {
@@ -14,15 +14,22 @@ export default function GuidesPage() {
   const categories = getAllCategories();
 
   return (
-    <div className="py-12">
+    <div className="py-12" style={{ backgroundColor: "var(--bg-primary)" }}>
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-brand-900">
-            AI Workflow Guides
+          <h1
+            className="text-4xl font-bold"
+            style={{ color: "var(--text-primary)" }}
+          >
+            OpenClaw Setup Guides
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-brand-500">
-            Find the perfect AI automation setup guide for your profession. Each
-            guide includes prompts, templates, and step-by-step instructions.
+          <p
+            className="mx-auto mt-4 max-w-2xl text-lg"
+            style={{ color: "var(--text-muted)" }}
+          >
+            Find the perfect OpenClaw deployment guide for your profession. Each
+            guide includes ClawHub skill recommendations, messaging integration
+            setup, custom automation templates, and step-by-step instructions.
           </p>
         </div>
 
@@ -38,10 +45,15 @@ export default function GuidesPage() {
 
           return (
             <section key={category.slug} className="mt-16">
-              <h2 className="text-2xl font-bold text-brand-800">
+              <h2
+                className="text-2xl font-bold"
+                style={{ color: "var(--text-primary)" }}
+              >
                 {category.name}
               </h2>
-              <p className="mt-2 text-brand-500">{category.description}</p>
+              <p className="mt-2" style={{ color: "var(--text-muted)" }}>
+                {category.description}
+              </p>
               <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {categoryProfessions.map((profession) => (
                   <ProfessionCard

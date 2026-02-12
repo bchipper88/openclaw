@@ -1,27 +1,34 @@
 ---
-title: "AI Workflows for Project Managers"
-description: "Extended guide content for project manager AI workflows"
+title: "OpenClaw for Project Managers"
+description: "Deploy OpenClaw as your project management AI agent for status reports, standup collection, risk analysis, and meeting notes automation."
 ---
 
-## How AI is Changing Project Management
+## An AI Agent Built for Project Management
 
-Project management has always been about juggling information — status updates, risk registers, stakeholder communications, resource plans. AI doesn't replace the strategic thinking, but it dramatically reduces the time spent on information synthesis and reporting.
+Project managers spend enormous amounts of time synthesizing information -- pulling status updates, writing reports, chasing down blockers, and summarizing meetings. OpenClaw is a free, open-source AI agent (165,000+ GitHub stars, MIT license) that runs locally on your machine and automates the repetitive parts of PM work so you can focus on strategy and stakeholder relationships.
 
-### The Numbers Behind AI-Powered PM
+OpenClaw works with Claude, GPT, Gemini, DeepSeek, and local models like LLaMA and Mistral. It connects to WhatsApp, Telegram, Slack, Discord, a web UI, and an API, giving you flexibility in how you and your team interact with it. With persistent memory across conversations, it builds up context about your projects over time and produces increasingly relevant outputs.
 
-The Project Management Institute's latest research reveals that **65% of project managers** now use AI tools regularly. Teams that integrate AI into their PM workflows see:
+### Status Report Generation Skill
 
-- **8+ hours saved per week** on status reporting and documentation
-- **40% faster** identification of project risks and blockers
-- **3x more consistent** stakeholder communication cadence
+Install the **Status Report Generator** skill from ClawHub, OpenClaw's marketplace of over 5,700 community skills. Configure it to pull data from Jira, Asana, Linear, or whatever tracker your team uses via API calls. OpenClaw reads open tickets, recently closed items, and blockers, then compiles a polished status report formatted for executive review. Schedule it to run every Friday afternoon and have the draft waiting in your inbox before you leave for the weekend.
 
-### Where AI Makes the Biggest Impact
+The skill supports multiple report templates -- one-pagers for the C-suite, detailed breakdowns for engineering leads, and risk-focused summaries for steering committees. Because OpenClaw remembers your project context, reports stay consistent week over week without you re-explaining the background.
 
-The highest-ROI use cases for project managers aren't the flashy ones. They're the repetitive tasks that eat your calendar:
+### Slack Bot for Standup Collection
 
-1. **Status report generation** — Pull data from Jira or Asana and transform it into exec-ready updates
-2. **Meeting intelligence** — Convert transcripts into action items, owners, and deadlines automatically
-3. **Risk assessment** — Feed project context to Claude and get structured risk analysis in minutes
-4. **Stakeholder emails** — Draft communications tailored to different audiences from the same project data
+Connect OpenClaw to your team's Slack workspace and set up an automated async standup. Each morning, OpenClaw messages team members asking for their updates, blockers, and plans for the day. It collects responses, identifies patterns (like multiple people blocked on the same dependency), and posts a synthesized summary to your team channel. No more fifteen-minute standup meetings that could have been a message.
 
-Our guide walks through each of these workflows with exact prompts, tool configurations, and Zapier automations you can set up in an afternoon.
+### Risk Analysis Agent
+
+Feed OpenClaw your project plan, timeline, and recent status data, and ask it to run a risk analysis. It identifies schedule risks, resource bottlenecks, dependency chains, and scope creep indicators. The agent can run this assessment on a recurring basis and flag new risks as they emerge, giving you an early warning system that works autonomously.
+
+OpenClaw can also cross-reference risks against historical project data if you provide past retrospectives or lessons-learned documents. Its persistent memory means it gets better at predicting your specific project risks over time.
+
+### Meeting Notes Automation
+
+OpenClaw can process meeting transcripts (from Otter, Fireflies, or raw text), extract action items, assign owners, set deadlines, and post the structured notes to Slack or your project tracker. Upload a transcript through the web UI or forward it via the API, and get clean, actionable notes within minutes.
+
+### Getting Started
+
+Install OpenClaw from GitHub, connect it to Slack, configure your project tracker API keys, and browse ClawHub for PM-specific skills. The entire setup takes about an hour, costs nothing, and your project data stays on your own machine.

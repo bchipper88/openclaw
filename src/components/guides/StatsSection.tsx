@@ -12,20 +12,29 @@ export function StatsSection({ stats }: StatsSectionProps) {
   ];
 
   return (
-    <section className="border-y border-brand-100 bg-white py-12">
+    <section
+      className="border-y py-12"
+      style={{
+        borderColor: "var(--border-color)",
+        backgroundColor: "var(--bg-card)",
+      }}
+    >
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-3 gap-8 text-center">
           {statItems.map((stat) => (
             <div key={stat.label}>
-              <p className="text-3xl font-extrabold text-brand-700">
+              <p
+                className="text-3xl font-extrabold"
+                style={{ color: "var(--text-secondary)" }}
+              >
                 {stat.value}
               </p>
-              <p className="mt-1 text-sm text-brand-400">{stat.label}</p>
+              <p className="mt-1 text-sm" style={{ color: "var(--text-muted)" }}>{stat.label}</p>
             </div>
           ))}
         </div>
         {stats.source && (
-          <p className="mt-6 text-center text-xs text-brand-300">
+          <p className="mt-6 text-center text-xs" style={{ color: "var(--text-muted)" }}>
             Source: {stats.source}
           </p>
         )}

@@ -7,7 +7,7 @@ import { SITE_CONFIG } from "@/lib/constants";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
   title: {
-    default: `${SITE_CONFIG.name} - AI Workflow Guides for Every Profession`,
+    default: `${SITE_CONFIG.name} - OpenClaw Setup Guides for Every Profession`,
     template: `%s | ${SITE_CONFIG.name}`,
   },
   description: SITE_CONFIG.description,
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: SITE_CONFIG.url,
     siteName: SITE_CONFIG.name,
-    title: `${SITE_CONFIG.name} - AI Workflow Guides for Every Profession`,
+    title: `${SITE_CONFIG.name} - OpenClaw Setup Guides for Every Profession`,
     description: SITE_CONFIG.description,
     images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630 }],
   },
@@ -39,13 +39,19 @@ export const metadata: Metadata = {
   },
 };
 
+// Inline script to prevent dark mode flash
+const themeScript = `(function(){try{var t=localStorage.getItem('theme');var d=t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme:dark)').matches);if(d)document.documentElement.classList.add('dark')}catch(e){}})()`;
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body className="flex min-h-screen flex-col font-sans antialiased">
         <Header />
         <main className="flex-1">{children}</main>

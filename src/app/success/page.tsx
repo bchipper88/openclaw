@@ -14,11 +14,18 @@ export default async function SuccessPage({
   const { profession } = await searchParams;
 
   return (
-    <div className="flex min-h-[60vh] items-center justify-center py-16">
+    <div
+      className="flex min-h-[60vh] items-center justify-center py-16"
+      style={{ backgroundColor: "var(--bg-primary)" }}
+    >
       <div className="mx-auto max-w-lg px-4 text-center">
-        <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-accent-500">
+        <div
+          className="mx-auto flex h-16 w-16 items-center justify-center rounded-full"
+          style={{ backgroundColor: "var(--text-secondary)" }}
+        >
           <svg
-            className="h-8 w-8 text-white"
+            className="h-8 w-8"
+            style={{ color: "var(--bg-primary)" }}
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -31,12 +38,19 @@ export default async function SuccessPage({
             />
           </svg>
         </div>
-        <h1 className="mt-6 text-3xl font-bold text-brand-900">
-          Thank You for Your Purchase!
+        <h1
+          className="mt-6 text-3xl font-bold"
+          style={{ color: "var(--text-primary)" }}
+        >
+          Your OpenClaw Setup Guide Is Ready!
         </h1>
-        <p className="mt-4 text-lg text-brand-500">
-          Your AI workflow guide is ready. Check your email for the download
-          link, or download it directly below.
+        <p
+          className="mt-4 text-lg"
+          style={{ color: "var(--text-muted)" }}
+        >
+          Your OpenClaw setup guide is ready. Check your email for the download
+          link, or download it directly below. Deploy OpenClaw locally and start
+          automating your workflow today.
         </p>
         <div className="mt-8 space-y-4">
           <Button href="#" size="lg" className="w-full">
@@ -52,7 +66,10 @@ export default async function SuccessPage({
             </Button>
           )}
         </div>
-        <p className="mt-6 text-sm text-brand-400">
+        <p
+          className="mt-6 text-sm"
+          style={{ color: "var(--text-muted)" }}
+        >
           Need help? Contact us at support@openclaw.com
         </p>
       </div>

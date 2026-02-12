@@ -2,7 +2,7 @@
   {
     "slug": "sales-services",
     "name": "Sales & Services",
-    "description": "AI workflows for client-facing professionals in sales and service industries.",
+    "description": "OpenClaw setup guides for client-facing professionals in sales and service industries.",
     "professionSlugs": [
       "real-estate-agents",
       "insurance-professionals",
@@ -13,7 +13,7 @@
   {
     "slug": "management-operations",
     "name": "Management & Operations",
-    "description": "AI workflows for managers and operational leaders.",
+    "description": "OpenClaw setup guides for managers and operational leaders.",
     "professionSlugs": [
       "project-managers",
       "product-managers",
@@ -24,7 +24,7 @@
   {
     "slug": "finance-accounting",
     "name": "Finance & Accounting",
-    "description": "AI workflows for finance, accounting, and tax professionals.",
+    "description": "OpenClaw setup guides for finance, accounting, and tax professionals.",
     "professionSlugs": [
       "financial-analysts",
       "tax-professionals",
@@ -34,7 +34,7 @@
   {
     "slug": "marketing-content",
     "name": "Marketing & Content",
-    "description": "AI workflows for marketers, content creators, and social media professionals.",
+    "description": "OpenClaw setup guides for marketers, content creators, and social media professionals.",
     "professionSlugs": [
       "marketing-professionals",
       "content-marketers",
@@ -46,7 +46,7 @@
   {
     "slug": "technology-engineering",
     "name": "Technology & Engineering",
-    "description": "AI workflows for developers, engineers, and IT professionals.",
+    "description": "OpenClaw setup guides for developers, engineers, and IT professionals.",
     "professionSlugs": [
       "software-developers",
       "it-operations",
@@ -57,7 +57,7 @@
   {
     "slug": "people-hr",
     "name": "People & HR",
-    "description": "AI workflows for HR, recruitment, and people operations.",
+    "description": "OpenClaw setup guides for HR, recruitment, and people operations.",
     "professionSlugs": [
       "hr-recruitment",
       "administrative-assistants"
@@ -66,7 +66,7 @@
   {
     "slug": "healthcare-education",
     "name": "Healthcare & Education",
-    "description": "AI workflows for healthcare providers and educators.",
+    "description": "OpenClaw setup guides for healthcare providers and educators.",
     "professionSlugs": [
       "healthcare-professionals",
       "educators"
@@ -75,7 +75,7 @@
   {
     "slug": "legal-compliance",
     "name": "Legal & Compliance",
-    "description": "AI workflows for legal and compliance professionals.",
+    "description": "OpenClaw setup guides for legal and compliance professionals.",
     "professionSlugs": [
       "legal-professionals",
       "consultants"

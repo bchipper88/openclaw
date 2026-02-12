@@ -54,16 +54,25 @@ export default async function BlogPostPage({
   return (
     <>
       <JsonLd data={articleJsonLd} />
-      <article className="py-16">
+      <article className="py-16" style={{ backgroundColor: "var(--bg-primary)" }}>
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <header className="mb-12">
-            <h1 className="text-4xl font-bold text-brand-900">
+            <h1
+              className="text-4xl font-bold"
+              style={{ color: "var(--text-primary)" }}
+            >
               {post.frontmatter.title as string}
             </h1>
-            <p className="mt-4 text-lg text-brand-500">
+            <p
+              className="mt-4 text-lg"
+              style={{ color: "var(--text-muted)" }}
+            >
               {post.frontmatter.excerpt as string}
             </p>
-            <p className="mt-4 text-sm text-brand-400">
+            <p
+              className="mt-4 text-sm"
+              style={{ color: "var(--text-muted)" }}
+            >
               Published{" "}
               {new Date(
                 post.frontmatter.publishedAt as string

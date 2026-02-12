@@ -16,13 +16,17 @@ export function ProfessionCard({
     return (
       <Link
         href={`/guides/${profession.slug}`}
-        className="flex items-center gap-3 rounded-lg border border-brand-100 bg-white p-4 transition-all hover:border-brand-300 hover:shadow-sm"
+        className="flex items-center gap-3 rounded-lg border p-4 transition-all hover:shadow-sm"
+        style={{
+          borderColor: "var(--border-color)",
+          backgroundColor: "var(--bg-card)",
+        }}
       >
         <div className="flex-1">
-          <h3 className="font-medium text-brand-800">{profession.title}</h3>
-          <p className="text-sm text-brand-400">{profession.category}</p>
+          <h3 className="font-medium" style={{ color: "var(--text-primary)" }}>{profession.title}</h3>
+          <p className="text-sm" style={{ color: "var(--text-muted)" }}>{profession.category}</p>
         </div>
-        <span className="text-sm font-semibold text-brand-600">
+        <span className="text-sm font-semibold" style={{ color: "var(--text-secondary)" }}>
           {formatPrice(profession.guidePrice)}
         </span>
       </Link>
@@ -32,7 +36,13 @@ export function ProfessionCard({
   return (
     <Card className="flex flex-col transition-all hover:shadow-md">
       <div className="mb-4 flex items-center justify-between">
-        <span className="rounded-full bg-brand-100 px-3 py-1 text-xs font-medium text-brand-700">
+        <span
+          className="rounded-full px-3 py-1 text-xs font-medium"
+          style={{
+            backgroundColor: "var(--bg-elevated)",
+            color: "var(--text-secondary)",
+          }}
+        >
           {profession.category}
         </span>
         {profession.tier === 1 && (
@@ -41,24 +51,31 @@ export function ProfessionCard({
           </span>
         )}
       </div>
-      <h3 className="text-xl font-bold text-brand-900">
+      <h3 className="text-xl font-bold" style={{ color: "var(--text-primary)" }}>
         AI Workflows for {profession.title}
       </h3>
-      <p className="mt-2 flex-1 text-sm text-brand-500">
+      <p className="mt-2 flex-1 text-sm" style={{ color: "var(--text-secondary)" }}>
         {profession.overview.substring(0, 150)}...
       </p>
       <div className="mt-4 flex flex-wrap gap-2">
         {profession.tools.slice(0, 3).map((tool) => (
           <span
             key={tool}
-            className="rounded bg-brand-50 px-2 py-1 text-xs text-brand-600"
+            className="rounded px-2 py-1 text-xs"
+            style={{
+              backgroundColor: "var(--bg-secondary)",
+              color: "var(--text-secondary)",
+            }}
           >
             {tool}
           </span>
         ))}
       </div>
-      <div className="mt-6 flex items-center justify-between border-t border-brand-100 pt-4">
-        <span className="text-lg font-bold text-brand-800">
+      <div
+        className="mt-6 flex items-center justify-between border-t pt-4"
+        style={{ borderColor: "var(--border-color)" }}
+      >
+        <span className="text-lg font-bold" style={{ color: "var(--text-primary)" }}>
           {formatPrice(profession.guidePrice)}
         </span>
         <Link

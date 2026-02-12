@@ -56,17 +56,27 @@ export default async function TipsPage({
     <>
       <JsonLd data={breadcrumbJsonLd} />
 
-      <section className="bg-gradient-to-b from-brand-50 to-white py-16">
+      <section
+        className="py-16"
+        style={{ background: "linear-gradient(to bottom, var(--bg-elevated), var(--bg-primary))" }}
+      >
         <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold text-brand-900">
+          <h1
+            className="text-4xl font-bold"
+            style={{ color: "var(--text-primary)" }}
+          >
             Free AI Tips for {profession.title}
           </h1>
-          <p className="mt-4 text-lg text-brand-500">
+          <p
+            className="mt-4 text-lg"
+            style={{ color: "var(--text-muted)" }}
+          >
             {profession.freeTips.length} actionable tips you can implement
             today. For the complete setup guide with prompts and templates,{" "}
             <a
               href={`/guides/${slug}#pricing`}
-              className="font-semibold text-brand-600 underline"
+              className="font-semibold underline"
+              style={{ color: "var(--text-secondary)" }}
             >
               get the full guide
             </a>
@@ -75,19 +85,28 @@ export default async function TipsPage({
         </div>
       </section>
 
-      <section className="py-12">
+      <section className="py-12" style={{ backgroundColor: "var(--bg-primary)" }}>
         <div className="mx-auto max-w-3xl space-y-8 px-4 sm:px-6 lg:px-8">
           {profession.freeTips.map((tip, index) => (
             <Card key={index} padding="lg">
               <div className="flex items-start gap-4">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-brand-600 text-lg font-bold text-white">
+                <span
+                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-lg font-bold"
+                  style={{ backgroundColor: "var(--text-secondary)", color: "var(--bg-primary)" }}
+                >
                   {index + 1}
                 </span>
                 <div>
-                  <h2 className="text-xl font-bold text-brand-800">
+                  <h2
+                    className="text-xl font-bold"
+                    style={{ color: "var(--text-primary)" }}
+                  >
                     {tip.title}
                   </h2>
-                  <p className="mt-3 leading-relaxed text-brand-600">
+                  <p
+                    className="mt-3 leading-relaxed"
+                    style={{ color: "var(--text-secondary)" }}
+                  >
                     {tip.description}
                   </p>
                 </div>
@@ -97,12 +116,18 @@ export default async function TipsPage({
         </div>
       </section>
 
-      <section className="bg-brand-600 py-16">
+      <section className="py-16" style={{ backgroundColor: "var(--bg-elevated)" }}>
         <div className="mx-auto max-w-2xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-white">
+          <h2
+            className="text-3xl font-bold"
+            style={{ color: "var(--text-primary)" }}
+          >
             Ready for the Complete Playbook?
           </h2>
-          <p className="mt-4 text-lg text-brand-100">
+          <p
+            className="mt-4 text-lg"
+            style={{ color: "var(--text-muted)" }}
+          >
             These tips are just the beginning. The full guide includes{" "}
             {profession.guideTableOfContents.length} chapters of step-by-step
             instructions, copy-paste prompts, and automation workflows.

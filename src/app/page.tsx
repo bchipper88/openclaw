@@ -25,15 +25,25 @@ export default function HomePage() {
       <JsonLd data={organizationJsonLd} />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-brand-50 to-white py-20">
+      <section
+        className="py-20"
+        style={{ background: "linear-gradient(to bottom, var(--bg-elevated), var(--bg-primary))" }}
+      >
         <div className="mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-extrabold tracking-tight text-brand-900 sm:text-5xl lg:text-6xl">
-            AI Workflow Guides for{" "}
-            <span className="text-brand-600">Every Profession</span>
+          <h1
+            className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl"
+            style={{ color: "var(--text-primary)" }}
+          >
+            OpenClaw Setup Guides for{" "}
+            <span style={{ color: "var(--text-secondary)" }}>Every Profession</span>
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-xl text-brand-500">
-            Step-by-step setup guides with prompts, templates, and automations.
-            Stop experimenting with AI &mdash; start implementing it.
+          <p
+            className="mx-auto mt-6 max-w-2xl text-xl"
+            style={{ color: "var(--text-muted)" }}
+          >
+            Deploy the open-source AI agent for your industry. Step-by-step
+            setup guides to run OpenClaw locally with persistent memory,
+            5,700+ ClawHub skills, and 24/7 autonomous operation.
           </p>
           <div className="mt-10 flex items-center justify-center gap-4">
             <Button href="/guides" size="lg">
@@ -47,20 +57,26 @@ export default function HomePage() {
       </section>
 
       {/* Search / Filter Section */}
-      <section className="py-12">
+      <section className="py-12" style={{ backgroundColor: "var(--bg-primary)" }}>
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <SearchFilter categories={categories} />
         </div>
       </section>
 
       {/* Featured Professions (Tier 1) */}
-      <section className="py-16">
+      <section className="py-16" style={{ backgroundColor: "var(--bg-primary)" }}>
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center text-3xl font-bold text-brand-900">
+          <h2
+            className="text-center text-3xl font-bold"
+            style={{ color: "var(--text-primary)" }}
+          >
             Most Popular Guides
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-center text-brand-500">
-            Our highest-demand AI workflow guides, trusted by thousands of
+          <p
+            className="mx-auto mt-4 max-w-xl text-center"
+            style={{ color: "var(--text-muted)" }}
+          >
+            Our highest-demand OpenClaw setup guides, trusted by thousands of
             professionals.
           </p>
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -72,40 +88,51 @@ export default function HomePage() {
       </section>
 
       {/* How It Works */}
-      <section className="bg-brand-50 py-16">
+      <section className="py-16" style={{ backgroundColor: "var(--bg-secondary)" }}>
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center text-3xl font-bold text-brand-900">
+          <h2
+            className="text-center text-3xl font-bold"
+            style={{ color: "var(--text-primary)" }}
+          >
             How It Works
           </h2>
           <div className="mt-12 grid gap-8 md:grid-cols-3">
             {[
               {
                 step: "1",
-                title: "Find Your Profession",
+                title: "Choose Your Profession",
                 description:
-                  "Browse our directory or search for your specific role to find a guide tailored to your workflow.",
+                  "Browse our directory or search for your specific role to find an OpenClaw setup guide tailored to your workflow.",
               },
               {
                 step: "2",
-                title: "Get the Guide",
+                title: "Get Your OpenClaw Setup Guide",
                 description:
-                  "Purchase your comprehensive setup guide with prompts, templates, and step-by-step instructions.",
+                  "Download your comprehensive guide with ClawHub skill recommendations, messaging integrations, and automation templates.",
               },
               {
                 step: "3",
-                title: "Implement in Hours",
+                title: "Deploy & Automate",
                 description:
-                  "Follow the guide to set up AI workflows that save you 10+ hours per week. No technical skills required.",
+                  "Follow the guide to deploy OpenClaw locally with the right skills installed. Free, open-source, and your data stays private.",
               },
             ].map((item) => (
               <div key={item.step} className="text-center">
-                <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-brand-600 text-lg font-bold text-white">
+                <div
+                  className="mx-auto flex h-12 w-12 items-center justify-center rounded-full text-lg font-bold"
+                  style={{ backgroundColor: "var(--text-secondary)", color: "var(--bg-primary)" }}
+                >
                   {item.step}
                 </div>
-                <h3 className="mt-4 text-xl font-semibold text-brand-800">
+                <h3
+                  className="mt-4 text-xl font-semibold"
+                  style={{ color: "var(--text-primary)" }}
+                >
                   {item.title}
                 </h3>
-                <p className="mt-2 text-brand-500">{item.description}</p>
+                <p className="mt-2" style={{ color: "var(--text-muted)" }}>
+                  {item.description}
+                </p>
               </div>
             ))}
           </div>
@@ -113,9 +140,12 @@ export default function HomePage() {
       </section>
 
       {/* All Professions Directory */}
-      <section className="py-16">
+      <section className="py-16" style={{ backgroundColor: "var(--bg-primary)" }}>
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center text-3xl font-bold text-brand-900">
+          <h2
+            className="text-center text-3xl font-bold"
+            style={{ color: "var(--text-primary)" }}
+          >
             All Profession Guides
           </h2>
           <div className="mt-12 grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -131,7 +161,7 @@ export default function HomePage() {
       </section>
 
       {/* Newsletter */}
-      <section className="bg-brand-600 py-16">
+      <section className="py-16" style={{ backgroundColor: "var(--bg-elevated)" }}>
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <NewsletterSignup />
         </div>

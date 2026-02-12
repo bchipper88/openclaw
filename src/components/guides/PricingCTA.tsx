@@ -37,21 +37,39 @@ export function PricingCTA({ profession }: PricingCTAProps) {
   return (
     <section id="pricing" className="py-16">
       <div className="mx-auto max-w-2xl px-4 text-center sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-brand-900">
+        <h2
+          className="text-3xl font-bold"
+          style={{ color: "var(--text-primary)" }}
+        >
           Get the Complete Guide
         </h2>
-        <p className="mt-4 text-lg text-brand-500">
+        <p
+          className="mt-4 text-lg"
+          style={{ color: "var(--text-secondary)" }}
+        >
           Everything you need to set up AI workflows for your role as a{" "}
           {profession.title.toLowerCase().replace(/s$/, "")}.
         </p>
-        <div className="mt-8 rounded-2xl border-2 border-brand-600 bg-white p-8 shadow-lg">
-          <p className="text-5xl font-extrabold text-brand-800">
+        <div
+          className="mt-8 rounded-2xl border-2 p-8 shadow-lg"
+          style={{
+            borderColor: "var(--border-hover)",
+            backgroundColor: "var(--bg-card)",
+          }}
+        >
+          <p
+            className="text-5xl font-extrabold"
+            style={{ color: "var(--text-primary)" }}
+          >
             {formatPrice(profession.guidePrice)}
           </p>
-          <p className="mt-2 text-brand-400">
+          <p className="mt-2" style={{ color: "var(--text-muted)" }}>
             One-time payment, instant access
           </p>
-          <ul className="mt-6 space-y-3 text-left text-brand-600">
+          <ul
+            className="mt-6 space-y-3 text-left"
+            style={{ color: "var(--text-secondary)" }}
+          >
             <li className="flex items-center gap-2">
               <CheckIcon /> Step-by-step setup instructions
             </li>
@@ -77,7 +95,7 @@ export function PricingCTA({ profession }: PricingCTAProps) {
               ? "Redirecting to checkout..."
               : `Buy Now - ${formatPrice(profession.guidePrice)}`}
           </button>
-          <p className="mt-4 text-xs text-brand-400">
+          <p className="mt-4 text-xs" style={{ color: "var(--text-muted)" }}>
             Secure checkout powered by Stripe. Instant PDF download after
             payment.
           </p>
